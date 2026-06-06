@@ -73,51 +73,18 @@ Contributors help shape the future of the Blueprint modding framework. To start 
 
 <br/><h2 align="center">🚀 Installation</h2>
 
-### 🛠️ One-Time Installer
-On a fresh Ubuntu/Debian VPS with dependencies installed, run:
+### ⚡ Ultimate One-Click Installer
+Our professional installer handles everything: Dependencies, MariaDB, Nginx, SSL (Certbot), and Blueprint. 
+Run this on a fresh Ubuntu 22.04/24.04 VPS:
+
 ```bash
+curl -L -O https://raw.githubusercontent.com/kesorhosting-wq/Pterodactyl-BlazerxXx/main/install.sh
 chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
 
 ### 📖 Manual Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/kesorhosting-wq/Pterodactyl-BlazerxXx.git /var/www/pterodactyl
-   cd /var/www/pterodactyl
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   composer install --no-dev --optimize-autoloader
-   yarn install --production
-   ```
-
-3. **Configure Environment:**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   # Edit .env with your database details
-   nano .env
-   ```
-
-4. **Database & Setup:**
-   ```bash
-   php artisan migrate --seed --force
-   php artisan p:user:make
-   ```
-
-5. **Build Assets & Permissions:**
-   ```bash
-   yarn build:production
-   chown -R www-data:www-data /var/www/pterodactyl/*
-   ```
-
-6. **Blueprint Setup:**
-   ```bash
-   bash blueprint.sh
-   ```
+If you prefer to do it yourself, see our [Manual Guide](https://github.com/kesorhosting-wq/Pterodactyl-BlazerxXx/blob/main/docs/INSTALL.md) or follow the legacy steps below.
 
 ### 🌐 Webserver & Services
 
