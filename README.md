@@ -119,6 +119,23 @@ chmod +x install.sh
    bash blueprint.sh
    ```
 
+### 🌐 Webserver & Services
+
+1. **Nginx Configuration:**
+   Copy `nginx.conf.example` to `/etc/nginx/sites-available/pterodactyl.conf`, replace `<domain>` with your domain, and link it:
+   ```bash
+   sudo cp nginx.conf.example /etc/nginx/sites-available/pterodactyl.conf
+   sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/pterodactyl.conf
+   sudo systemctl restart nginx
+   ```
+
+2. **Queue Worker:**
+   Copy `pteroq.service.example` to `/etc/systemd/system/pteroq.service` and start it:
+   ```bash
+   sudo cp pteroq.service.example /etc/systemd/system/pteroq.service
+   sudo systemctl enable --now pteroq.service
+   ```
+
 <br/><br/>
 
 <p align="center">
