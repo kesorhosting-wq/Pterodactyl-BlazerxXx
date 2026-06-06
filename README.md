@@ -71,8 +71,56 @@ Contributors help shape the future of the Blueprint modding framework. To start 
 [**BlueprintFramework/templates**](https://github.com/BlueprintFramework/templates) is a repository with initialization templates for extension development.\
 [**BlueprintFramework/web**](https://github.com/BlueprintFramework/web) is our open-source documentation and landing website.
 
+<br/><h2 align="center">🚀 Installation</h2>
+
+### 🛠️ One-Time Installer
+On a fresh Ubuntu/Debian VPS with dependencies installed, run:
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+### 📖 Manual Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/kesorhosting-wq/Pterodactyl-BlazerxXx.git /var/www/pterodactyl
+   cd /var/www/pterodactyl
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   composer install --no-dev --optimize-autoloader
+   yarn install --production
+   ```
+
+3. **Configure Environment:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   # Edit .env with your database details
+   nano .env
+   ```
+
+4. **Database & Setup:**
+   ```bash
+   php artisan migrate --seed --force
+   php artisan p:user:make
+   ```
+
+5. **Build Assets & Permissions:**
+   ```bash
+   yarn build:production
+   chown -R www-data:www-data /var/www/pterodactyl/*
+   ```
+
+6. **Blueprint Setup:**
+   ```bash
+   bash blueprint.sh
+   ```
 
 <br/><br/>
+
 <p align="center">
   © 2023-2025 Emma (prpl.wtf)
   <br/><br/><img src="https://github.com/user-attachments/assets/e6ff62c3-6d99-4e43-850d-62150706e5dd"/>
