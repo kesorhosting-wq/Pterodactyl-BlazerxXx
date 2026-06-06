@@ -1,0 +1,28 @@
+info:
+  name: "SubDomains"
+  identifier: "subdomains"
+  description: "Allow users to connect with minecraft via Subdomain instead of ip+port"
+  flags: "hasInstallScript,hasRemovalScript"
+  version: "0.4.1"
+  target: "beta-A428-2"
+  author: "CorwinDev"
+  icon: ""
+  website: ""
+
+admin:
+  view: "admin.blade.php"
+  controller: "controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: "data"
+  public: ""
+
+database:
+  migrations: "migrations"

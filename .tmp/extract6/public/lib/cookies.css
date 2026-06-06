@@ -1,0 +1,31 @@
+#cookie-alert {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 0.25rem;
+    z-index: 1000;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+#accept-cookies {
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: var(--br-default);
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#accept-cookies:hover {
+    scale: 1.05
+}

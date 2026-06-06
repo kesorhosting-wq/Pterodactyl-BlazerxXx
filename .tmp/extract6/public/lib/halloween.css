@@ -1,0 +1,1 @@
+.falling-element{position:fixed;top:-10px;z-index:9999;user-select:none;pointer-events:none;font-size:1em;animation:linear infinite fall}@keyframes fall{0%{transform:translateX(0) translateY(0);opacity:0}10%{opacity:1}100%{transform:translateX(var(--end-x)) translateY(var(--end-y));opacity:1}}

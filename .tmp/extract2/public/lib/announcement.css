@@ -1,0 +1,109 @@
+.announcement-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.announcement-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.announcement-icon {
+    display: flex;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.announcement-content {
+    font-size: 1.2rem;
+    flex-grow: 1;
+}
+
+.announcement-close-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.announcement-close-btn:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.announcement-container.standard {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: color-mix(in srgb, var(--primary-color) 15%, transparent) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid color-mix(in srgb, var(--primary-color) 40%, transparent);
+    box-shadow: 0 8px 32px 0 color-mix(in srgb, var(--primary-color) 30%, transparent);
+    transform-origin: center;
+}
+
+.announcement-container.warning {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(245, 158, 11, 0.15) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(245, 158, 11, 0.3);
+    transform-origin: center;
+}
+
+.announcement-container.alert {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(239, 68, 68, 0.15) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(239, 68, 68, 0.3);
+    transform-origin: center;
+}
+
+.announcement-container.success {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(16, 185, 129, 0.15) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.3);
+    transform-origin: center;
+}
+

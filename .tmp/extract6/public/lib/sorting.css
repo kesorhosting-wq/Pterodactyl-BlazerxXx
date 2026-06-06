@@ -1,0 +1,80 @@
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > a {
+    margin-top: 0.75rem;
+}
+
+/* Sortable styling improvements */
+.sortable-ghost {
+    opacity: 0.4 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px dashed var(--primary-color) !important;
+    border-radius: 0.5rem !important;
+    transform: scale(0.95) !important;
+    transition: all 0.2s ease !important;
+}
+
+.sortable-chosen {
+    transform: scale(1.02) !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+    border: 2px solid var(--primary-color) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    transition: all 0.2s ease !important;
+    z-index: 1000 !important;
+}
+
+.sortable-drag {
+    transform: scale(1.05) rotate(2deg) !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4) !important;
+    border: 2px solid var(--primary-color) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    opacity: 0.9 !important;
+    transition: none !important;
+    z-index: 1001 !important;
+}
+
+/* Mobile touch feedback */
+.mobile-sorting-ready {
+    transform: scale(1.03) !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+    border: 2px solid var(--primary-color) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    transition: all 0.3s ease !important;
+    animation: pulse-border 1.5s infinite !important;
+}
+
+@keyframes pulse-border {
+    0% {
+        border-color: var(--primary-color);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+    50% {
+        border-color: rgba(194, 24, 91, 0.6);
+        box-shadow: 0 8px 25px rgba(194, 24, 91, 0.3);
+    }
+    100% {
+        border-color: var(--primary-color);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* Smooth transitions for server items only */
+.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease !important;
+}
+
+/* Drop zone indicator */
+.sortable-drop-indicator {
+    height: 4px !important;
+    background: linear-gradient(90deg, var(--primary-color), rgba(194, 24, 91, 0.5)) !important;
+    border-radius: 2px !important;
+    margin: 0.5rem 0 !important;
+    animation: glow 1s ease-in-out infinite alternate !important;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px var(--primary-color);
+    }
+    to {
+        box-shadow: 0 0 15px var(--primary-color), 0 0 25px rgba(194, 24, 91, 0.5);
+    }
+}

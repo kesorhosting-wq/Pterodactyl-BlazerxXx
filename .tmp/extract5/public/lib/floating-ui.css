@@ -1,0 +1,159 @@
+
+/* Floating buttons container */
+.floating-buttons {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    z-index: 1000;
+    align-items: flex-end;
+}
+
+/* Desktop view - show all buttons in column */
+@media (min-width: 769px) {
+    .floating-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .floating-menu-toggle {
+        display: none;
+    }
+    
+    .floating-menu-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Mobile view - hamburger menu */
+@media (max-width: 768px) {
+    .floating-buttons {
+        display: block;
+    }
+    
+    .floating-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+    }
+    
+    .floating-menu-toggle:hover {
+        transform: scale(1.05);
+    }
+    
+    .floating-menu-toggle.active {
+        transform: rotate(45deg);
+        background-color: #dc2626;
+    }
+    
+    .floating-menu-items {
+        position: absolute;
+        bottom: 70px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+    }
+    
+    .floating-menu-items.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+/* Common button styles */
+.floating-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.floating-buttons a:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.floating-buttons a i {
+    font-size: 18px;
+}
+
+/* Mobile toggle button styles - only apply on mobile */
+@media (max-width: 768px) {
+    .floating-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+    }
+    
+    .floating-menu-toggle i {
+        font-size: 18px;
+    }
+}
+
+/* License button specific styles */
+#license-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#license-button:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 768px) {
+    .floating-buttons a {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .floating-buttons a i {
+        font-size: 16px;
+    }
+    
+    #license-button {
+        width: 48px;
+        height: 48px;
+    }
+}

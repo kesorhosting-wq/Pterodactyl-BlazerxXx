@@ -1,0 +1,1 @@
+/* SubdomainsStart */ 'blueprint:subdomains' => [ 'driver' => 'local', 'root' => storage_path('extensions/subdomains'), 'url' => env('APP_URL') . '/fs/extensions/subdomains', 'visibility' => 'public', 'throw' => false, ], 'blueprint_private:subdomains' => [ 'driver' => 'local', 'root' => storage_path('.extensions/subdomains'), 'throw' => false, ], /* SubdomainsEnd */

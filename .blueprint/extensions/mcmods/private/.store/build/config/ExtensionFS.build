@@ -1,0 +1,1 @@
+/* McmodsStart */ 'blueprint:mcmods' => [ 'driver' => 'local', 'root' => storage_path('extensions/mcmods'), 'url' => env('APP_URL') . '/fs/extensions/mcmods', 'visibility' => 'public', 'throw' => false, ], 'blueprint_private:mcmods' => [ 'driver' => 'local', 'root' => storage_path('.extensions/mcmods'), 'throw' => false, ], /* McmodsEnd */

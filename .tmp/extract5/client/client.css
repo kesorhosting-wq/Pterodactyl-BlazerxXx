@@ -1,0 +1,1872 @@
+/**
+ * Pterodactyl - Panel
+ * Euphoria Development Theme "Euphoria"
+ */
+
+
+/* --- Palette Configuration --- */
+:root {
+    /* Neutral Colors (Dark Shades of Gray) */
+    --neutral-900: hsla(0, 0%, 10%, 1);  /* Very dark gray */
+    --neutral-800: hsla(0, 0%, 10%, 1);
+    --neutral-700: hsla(0, 0%, 15%, 1);
+    --neutral-600: hsla(0, 0%, 20%, 1);
+    --neutral-500: hsla(0, 0%, 25%, 1);
+    --neutral-400: hsla(0, 0%, 30%, 1);
+    --neutral-300: hsla(0, 0%, 35%, 1);
+    --neutral-200: hsla(0, 0%, 65%, 1);
+    --neutral-100: hsla(0, 0%, 80%, 1);
+    --neutral-50:  hsla(0, 0%, 90%, 1);  /* Light gray */
+
+    /* Primary Color */
+    /* --primary-color (Set by default and changed by user) Defaults to #c2185b/rgb(194 24 91); */
+
+    /* Yellow Colors (Warning) */
+    --yellow: rgba(255, 179, 0, 1);
+
+    /* Green Colors (Success) */
+    --green: rgba(0, 255, 0, 0.5);
+
+    /* Red Colors (Error) */
+    --red: rgba(255, 0, 0, 0.5);
+
+    /* Gray Colors (Shades of Gray) */
+    --gray-900: hsla(0, 0%, 10%, 1); 
+    --gray-800: hsla(0, 0%, 15%, 1);
+    --gray-700: hsla(0, 0%, 20%, 1);
+    --gray-600: hsla(0, 0%, 25%, 1);
+    --gray-500: hsla(0, 0%, 30%, 1);
+    --gray-400: hsla(0, 0%, 40%, 1);
+    --gray-300: hsla(0, 0%, 50%, 1);
+    --gray-200: hsla(0, 0%, 65%, 1);
+    --gray-100: hsla(0, 0%, 80%, 1);
+    --gray-50:  hsla(0, 0%, 90%, 1);
+
+    /* Used for Fonts and more */
+    --white: rgba(255, 255, 255, 1);
+
+    /* Transparency */
+    --transparent: transparent;
+    --br-default: 10px;
+    /* Define accent colors */
+    --accent-pink: #ff69b4; /* Hot Pink */
+    --accent-purple: #6a0dad; /* Purple */
+    --accent-deep-pink: #c71585; /* Deep Pink */
+    --accent-medium-violet-red: #c71585; /* Medium Violet Red */
+}
+
+/* Spacing */
+.p-4 { padding: 1rem; }
+.mr-4 { margin-right: 1rem; }
+.mb-1 { margin-bottom: 0.25rem; }
+
+/* Font sizes */
+.text-xl { font-size: 1.25rem; }
+.text-base { font-size: 1rem; }
+
+/* Font weight */
+.font-semibold { font-weight: 600; }
+
+/* Rounded corners */
+.rounded-md { border-radius: 0.375rem; }
+
+/* Shadow */
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Flex utilities */
+.flex { display: flex; }
+.items-center { align-items: center; }
+
+/* --- Custom Classes with Gradient Theme --- */
+.style-module_2Vp6MaXq {
+    position: relative;
+    border-radius: var(--br-default); /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 85%) !important; /* Semi-transparent white */
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div[class*="FileManagerBreadcrumbs___StyledDiv"] {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+    padding-right: 15px;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.hidden.sm\:block.sm\:col-span-2.lg\:col-span-3.pr-4 > h1 {
+    background-color: hsla(0, 0%, 0%, 0.85) !important;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    text-align: center;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv4"] > div[class*="SettingsContainer___StyledDiv5"] > div {
+    border-color: var(--primary-color) !important; /* Use the primary color for the border */
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div> div[class*="BackupRow___StyledDiv6"] > div:nth-child(2) > div > div > div > button[class*="DropdownMenu__DropdownButtonRow"]:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="BackupRow___StyledDiv6"] > div:nth-child(2) > div > div > div > button:hover {
+    background-color: color-mix(in srgb, var(--primary-color) 25%, transparent);
+} 
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.hidden.sm\:block.sm\:col-span-2.lg\:col-span-3.pr-4 {
+    padding-right: 0rem !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="BackupRow___StyledDiv6"] > div > div > div {
+    position: fixed !important;
+}
+
+.style-module_RcP2_Fvj .style-module_1AMtO9lt {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4,
+html body.bg-neutral-800 div#app div[class*="App___StyledDiv"] div[class*="Fade__Container"] section.fade-appear-done.fade-enter-done div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done div.grid.grid-cols-4.gap-4.mb-4 {
+    display: none !important;
+}
+
+.eEAhlT,
+.gFxPde,
+.hmoXMs,
+.iAWVPT
+{
+    color: var(--white) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="DatabasesContainer___StyledDiv"] > p {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+    padding: 10px;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="BackupRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"][class*="BackupContainer___StyledBackupRow"] {
+    display: flex !important;
+    padding: 2rem !important;
+    flex-direction: row !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="StartupContainer___StyledDiv"] > div[class*="TitledGreyBox___StyledDiv"][class*="StartupContainer___StyledTitledGreyBox2"] > div[class*="TitledGreyBox___StyledDiv3"] > div > select > option {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    color: var(--white) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(1) > div.mt-4.w-full.md\:mt-0.md\:flex-1.md\:w-auto > div > textarea,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="BackupRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"][class*="BackupContainer___StyledBackupRow"] > div[class*="BackupRow___StyledDiv5"] {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="BackupRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"][class*="BackupContainer___StyledBackupRow"] > div[class*="BackupRow___StyledDiv6"] {
+    display: flex;
+    align-items: center;
+}
+
+/* Key parent container adjustments */
+div[class*="App___StyledDiv"] {
+    position: relative; /* Establish proper stacking context */
+    z-index: 1; /* Ensure dropdown is not limited by this */
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] {
+    display: flex !important;
+    padding: 2rem !important;
+    flex-direction: row !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+    border-radius: var(--br-default);
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div > div.flex.items-center.text-gray-50 > a:hover {
+    color: var(--primary-color) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.items-center.justify-between.my-2 > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > p {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 90%) !important;
+    border-radius: var(--br-default);
+    padding: 10px;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+.logo-sidebar {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+.style-module_1WqkLT9X {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div:nth-child(3) > div.style-module_OFB5PMuf.bg-red-500 {
+    display: none;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountApiContainer___StyledContentBox2"] > div > div[class*="GreyRowBox"][class*="AccountApiContainer___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] {
+    display: flex !important;
+    padding: 2rem !important;
+    background-color: var(--transparent) !important;
+    flex-direction: row !important; 
+}
+
+body > footer > p > a:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.items-center.justify-between.my-2 > p > span {
+    color: var(--primary-color) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] {
+    display: flex !important;
+    height: auto !important;
+    align-content: center !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+}
+
+#language-selector-button {
+    background-color: hsla(0, 0%, 0%, 0.8) !important; 
+    color: white; 
+    padding: 10px 10px; 
+    border-radius: var(--br-default); 
+    cursor: pointer; 
+    border: rgba(255, 255, 255, 0.07843); 
+    border-style: solid;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    border-style: solid;
+    border-width: 2.5px !important;
+    display: flex;
+    z-index: 1000 !important;
+}
+
+#language-selector-button:hover {
+    background-color: var(--primary-color) !important;
+    border: rgb(0 0 0 / 29%);
+    border-style: solid;
+    border-radius: var(--br-default);
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+#SubNavigation > div > a:hover {
+    box-shadow: var(--white) 0px -2px inset !important;
+}
+
+#LogoWrapper {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: var(--white);
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+}
+
+#CustomButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0 !important;
+}
+
+#CustomButtons > div {
+    width: auto;
+    display: flex;
+    border-radius: var(--br-default);
+    padding: 1rem;
+}
+
+#NavigationLink {
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    color: var(--white);
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+}
+
+#NavigationLink:hover {
+    background-color: var(--primary-color) !important;
+    border: rgb(0 0 0 / 29%);
+    border-style: solid;
+    border-radius: var(--br-default);
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+#SubNavigation > div > a,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] > button[class*="RemoveSubuserButton___StyledButton"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] > button[class*="UserRow___StyledButton"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] > div[class*="UserRow___StyledDiv3"] > p[class*="UserRow___StyledP3"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] > div[class*="UserRow___StyledDiv4"] > p[class*="UserRow___StyledP5"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.fade-appear-done.fade-enter-done > div > a > div[class*="FileObjectRow___StyledDiv"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.pl-4.pr-6.text-neutral-400,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div.flex-1.px-4.sm\:px-0 > div.flex.items-center.text-gray-50 > div {
+    color: var(--white) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div {
+    border-color: rgb(255 255 255 / 25%) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div.self-center.md\:px-4 > button {
+    color: var(--white) !important;
+}
+
+#server-id-container > div.style-module_1DtraXMW.bg-gray-700.rounded {
+    --tw-shadow: 0;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-gray-700 {
+    --tw-shadow: 0;
+}
+
+#SubNavigation > div[class*="sideNav__SideNavigation"] > div[class*="Fade__Container"] {
+    display: none !important;
+}
+
+#NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.justify-center.mt-2 > div > a {
+    border: #ffffff14;
+    border-style: solid;
+    border-radius: var(--br-default);
+    height: 2.5rem !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-red-500 > svg,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-gray-700 > svg,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-yellow-500 > svg {
+    transform: rotate(0deg) scale(0.85) translate(0px, 0px);
+    color: rgb(255 255 255);
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="sideNavDashboard__SideNavigation"] > div[class*="sideNavDashboard__SectionWrapper"] > a > div > svg {
+    border-radius: var(--br-default) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="sideNavDashboard__SideNavigation"] > div[class*="sideNavDashboard__SectionWrapper"] > button {
+    background-color: transparent !important;
+    border: 2px solid transparent !important;
+    border-radius: var(--br-default) !important;
+    transition: 150msease-in-out;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="sideNavDashboard__SideNavigation"] > div[class*="sideNavDashboard__SectionWrapper"] > button:hover {
+transform: scale(1.00) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.fade-appear-done.fade-enter-done > div > a:hover > div[class*="FileObjectRow___StyledDiv2"] {
+    color: var(--primary-color) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2vOYXZWm.flex-1:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1:hover {
+    background-color: var(--yellow) !important;
+    color: var(--white); 
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2vOYXZWm.flex-1 {
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    color: white;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button:nth-child(1):hover {
+    background-color: var(--green) !important;
+    color: var(--white);   
+}
+
+.floJYL:not([type="checkbox"]):not([type="radio"]) {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent */
+    color: var(--white)
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv"] > div > span[class*="FileManagerBreadcrumbs___StyledSpan3"],
+#app > div[class*="App___StyledDiv"] > div > div > div > p > span {
+    color: var(--primary-color)
+}
+
+#app > div[class*="App___StyledDiv"] > div > div > div > p {
+    margin-bottom: 0 !important
+}
+
+#app > div[class*="App___StyledDiv"] > div > div > div {
+    position: relative;
+    border-radius: var(--br-default); /* Ensure this matches your design */
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent */
+        
+    padding: 1.5%;
+    margin-top: 5%;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div[class*="App___StyledDiv"] > div > div > div[class*="CustomModal___StyledDiv"] > div {
+    background-color: transparent !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div > div > div[class*="CustomModal___StyledDiv"] > div > button,
+#app > div[class*="App___StyledDiv"] > div > div > div[class*="CustomModal___StyledDiv"] > div > form > p {
+    color: var(--white) !important;
+}
+
+.copy-console:hover {
+    color: var(--primary-color) !important;  
+}
+
+#style-module_RcP2_Fvj > div > div:nth-child(3) {
+    border-radius: var(--br-default);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-module_2Vp6MaXq > .style-module_OFB5PMuf {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0.25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+#style-module_RcP2_Fvj > div > div.xterm-viewport,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.style-module_1n_DiqmT.style-module_1AMtO9lt {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#style-module_RcP2_Fvj > div > div.xterm-viewport {
+    border-radius: var(--br-default) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > input {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 {
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+}
+
+/* Server Charts */
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-1.md\:grid-cols-3.gap-2.sm\:gap-4 > div {
+    position: relative;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 85%) !important; /* Semi-transparent */
+        
+    padding: 1.5%;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+/* Terminal #1 */
+.xterm-viewport {
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 75%) !important; /* Semi-transparent */
+        
+    padding: 1rem;
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+.xterm-screen {
+    left: 1%
+}
+/* Terminal #2 */
+.style-module_RcP2_Fvj > .style-module_1n_DiqmT {
+    min-height: 16rem;
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    padding: 0.25rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-color: transparent !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+/* Terminal Text Area #2 */
+.style-module_3TDo--Tn {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+    width: 54rem !important;
+    padding: 1.5%;
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Copy Feedback Styling */
+.copyFeedback {
+    position: absolute;
+    top: -35px; /* Adjust as needed */
+    right: 0;
+    background-color: var(--gray-700); /* #4b5563 */
+    color: var(--gray-50); /* #f9fafb */
+    padding: 4px 8px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem; /* text-sm */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+    animation: fade-in 0.3s ease-in-out;
+}
+
+.copyFeedback::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 10px; /* Align with the feedback box */
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--gray-700) transparent transparent transparent; /* Arrow pointing down */
+}
+/* Player List Display */
+.minecraft-players-container {
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 90%) !important;
+            
+    padding: 1.5%;
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border-width: 2.5px !important;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* MC Plugins Page */
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk[class*="pluginsPage___StyledServerContentBlock"].fade-appear-done.fade-enter-done > div[class*="pluginsPage__PageHeader"] > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk[class*="pluginsPage___StyledServerContentBlock"].fade-appear-done.fade-enter-done > div[class*="pluginsPage__EmptyState"] > p[class*="pluginsPage__EmptyStateText"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk[class*="pluginsPage___StyledServerContentBlock"].fade-appear-done.fade-enter-done > div[class*="pluginsPage__EmptyState"] > p.text-neutral-500,
+[class*="pluginsPage___StyledDiv4"] {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk[class*="pluginsPage___StyledServerContentBlock"].fade-appear-done.fade-enter-done > div[class*="pluginsPage__FiltersContainer"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk[class*="pluginsPage___StyledServerContentBlock"].fade-appear-done.fade-enter-done > div[class*="pluginsPage__PageHeader"] {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-width: 2.5px !important;
+    border: rgba(0, 0, 0, 0.29);
+    border-radius: var(--br-default); /* Keep the rounded corners */
+}
+
+#modal-portal > div[class*="Fade__Container"] > div > div {
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(22, 163, 74, 0.9);
+    border-color: rgba(34, 197, 94, 0.3);
+    border-width: 1px;
+    border-radius: 0.5rem;
+}
+
+.custom-buttons {
+    display: flex;
+}
+
+.uuid-copy {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+
+.uuid-copy:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+/* Panel START/STOP/RESTART Buttons */
+/* Stop Button Hover */
+.style-module_2vOYXZWm:hover {
+    background-color: var(--red) !important;
+}
+/* Restart Button Hover */
+.style-module_Yp7-2Fw-:hover {
+    background-color: var(--yellow) !important;
+}
+/* Panel Power Buttons */
+.style-module_3kBDV_wo {
+    background-color: var(--gray-700) !important;
+}
+
+/* Secondary Navigation Bar Background */
+.jZPsWO {
+    /* Frosted glass effect */
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Active NavBar Button */
+.active {
+    color: var(--white) !important;
+}
+
+/* NavBar button Active & Hover */
+.navbar > a:active, 
+.navbar > button:active, 
+.navbar > .navigation-link:active, 
+.navbar > a:hover, 
+.navbar > button:hover, 
+.navbar > .navigation-link:hover, 
+.navbar > a.active, 
+.navbar > button.active, 
+.navbar > .navigation-link.active {
+    color: white !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* Default state (non-active or non-hover) */
+.navbar > a, 
+.navbar > button, 
+.navbar > .navigation-link {
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+    color: var(--white) !important;
+    margin-right: 0.5rem;
+}
+
+.navbar > a, .navbar > button, .navbar > .navigation-link {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Logout button styled to look like a link */
+.navigation-button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: var(--white);
+}
+
+.navigation-button:hover {
+    color: white;
+    background-color: var(--primary-color) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px !important;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--transparent) !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--neutral-900) !important; /* Set this to a dark color or a color of your choice */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color) !important; /* Set the thumb color */
+    border-radius: var(--br-default); /* Optional: to round the thumb */
+    box-shadow: var(--transparent) 0px 0px 0px 0px inset, var(--transparent) 0px 0px 0px 0px inset !important;
+}
+
+/* Login Container */
+.cxOtYP {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+            
+    padding: 1.5% !important;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+/* Login Page Copyright */
+.llNNfK {
+    display: none !important;
+}
+
+/* Login Container LOGIN Button */
+.dLAOsI {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+    border-width: 2px !important;
+}
+
+@media (max-width: 900px) {
+    #logo span {
+        display: none !important;
+    }
+}
+
+#NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.items-center.h-\[3\.5rem\] > div.flex-1.flex.justify-center.relative.z-50 {
+    padding-right: 1rem;
+}
+
+@media (max-width: 950px) {
+    #NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.items-center.h-\[3\.5rem\] > div.flex-1.flex.justify-center.relative.z-50 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 415px) {
+    #NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.justify-center.mt-2 > div > a:nth-child(2) {
+        display: none !important;
+    }
+}
+
+#searchResults {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1) !important;
+    z-index: 1000 !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+#searchBar {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1) !important;
+    z-index: 1000 !important;
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+.dLAOsI:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+    border-width: 2px !important;
+}
+/* Login Container Field Text */
+.dqkKHi {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+}
+
+/* Login Container Forgot Password Text */
+.cjgCjC {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--primary-color) !important;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cjgCjC:hover {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--white) !important;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Footer Style */
+.copyrightFooter {
+    margin-top: 2rem;
+    text-align: center;
+    --tw-text-opacity: 0.5;
+    color: hsl(0deg 0% 100% / 75%);
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.eOGAqX {
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: hsl(0deg 0% 100% / 75%) !important;
+}
+
+/* Apply shadows directly to the navbar */
+#NavigationBarRemake {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 90%) !important; /* Semi-transparent white */
+
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+    z-index: 20 !important;
+
+    /* Enable horizontal scrolling when content overflows */
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+#app > div[class*="ProgressBar___StyledDiv"] {
+    position: fixed; /* Position the progress bar fixed to the viewport */
+    bottom: 0; /* Align it to the bottom of the viewport */
+    left: 0; /* Ensure it starts from the left edge */
+    width: 100%; /* Stretch it across the full screen width */
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+#app > div[class*="ProgressBar___StyledDiv"] > div {
+    background-color: var(--primary-color); /* Use the CSS variable for color */
+    box-shadow: 0 -2px 10px 2px var(--primary-color); /* Apply shadow effect */
+}
+
+/* Style the scrollbar for a better look (optional) */
+#NavigationBarRemake::-webkit-scrollbar {
+    height: 4px !important; /* Adjust scrollbar height */
+}
+
+#NavigationBarRemake::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Style scrollbar thumb */
+    border-radius: var(--br-default); /* Rounded edges for the scrollbar */
+}
+
+#NavigationBarRemake::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+#NavigationBar {
+    display: none !important;
+}
+
+#SubNavigation {
+    display: flex;
+    position: relative;
+    z-index: 1 !important;
+}
+
+/* Style the scrollbar for a better look (optional) */
+#SubNavigation::-webkit-scrollbar {
+    height: 4px !important; /* Adjust scrollbar height */
+}
+
+#SubNavigation::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Style scrollbar thumb */
+    border-radius: var(--br-default); /* Rounded edges for the scrollbar */
+}
+
+#SubNavigation::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+#accountDropdownMenu {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position relative to the navbar */
+    right: 0;
+    top: 100%; /* Position the dropdown right below the navbar */
+    z-index: 9999; /* Ensure it's on top of other elements, including #subnavigation */
+    background-color: white; /* Ensure it's visible */
+    border: 1px solid #ccc;
+    border-radius: var(--br-default);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+#accountDropdownMenu.show {
+    display: block; /* Show the menu */
+}
+
+#logo {
+    padding-left: 1rem;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] {
+    border-color: var(--primary-color) !important;
+}
+
+[class*="ServerRow__StatusIndicatorBox"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv7"] > div > div[class*="ScheduleTaskRow___StyledDiv2"] > div > div,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv7"] > div > div[class*="ScheduleTaskRow___StyledDiv5"] > div > div {
+    background-color: hsla(0, 0%, 0%, 0.97) !important;
+}
+
+/* Buttons */
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="TaskDetailsModal___StyledDiv6"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] > div[class*="ScheduleEditContainer___StyledDiv5"] > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1.mr-4,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] > div[class*="ScheduleEditContainer___StyledDiv5"] > button:nth-child(2),
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv5"] > button,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv"] > div > button,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditScheduleModal___StyledDiv6"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div > div.custom-port-form.mt-4.mb-4 > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.justify-end.mb-2 > a,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountSSHContainer___StyledContentBox"] > div > form > div[class*="CreateSSHKeyForm___StyledDiv"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountApiContainer___StyledContentBox"] > div > form > div[class*="CreateApiKeyForm___StyledDiv"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > form > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox2"] > div > div:nth-child(2) > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox"] > div > form > div[class*="UpdateEmailAddressForm___StyledDiv2"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div > div > form > div[class*="UpdatePasswordForm___StyledDiv3"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > a > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button:nth-child(3),
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="SettingsContainer___StyledDiv11"] > div > div[class*="TitledGreyBox___StyledDiv3"] > form > div[class*="RenameServerBox___StyledDiv2"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="TitledGreyBox___StyledDiv"][class*="ReinstallServerBox___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv4"] > div[class*="SettingsContainer___StyledDiv7"] > a > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div:nth-child(2) > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.border-b.border-gray-700.pb-4.mb-4 > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > button {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+    border-radius: var(--br-default) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="TaskDetailsModal___StyledDiv6"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] > div[class*="ScheduleEditContainer___StyledDiv5"] > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1.mr-4:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] > div[class*="ScheduleEditContainer___StyledDiv5"] > button:nth-child(2):hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none:hover,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv5"] > button,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv"] > div > button:hover,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditScheduleModal___StyledDiv6"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div > div.custom-port-form.mt-4.mb-4 > div > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo:active,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button:nth-child(2):active,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button:nth-child(2):hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.justify-end.mb-2 > a:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountSSHContainer___StyledContentBox"] > div > form > div[class*="CreateSSHKeyForm___StyledDiv"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountApiContainer___StyledContentBox"] > div > form > div[class*="CreateApiKeyForm___StyledDiv"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > form > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox2"] > div > div:nth-child(2) > div > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox"] > div > form > div[class*="UpdateEmailAddressForm___StyledDiv2"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div > div > form > div[class*="UpdatePasswordForm___StyledDiv3"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > a > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button:nth-child(3):hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="SettingsContainer___StyledDiv11"] > div > div[class*="TitledGreyBox___StyledDiv3"] > form > div[class*="RenameServerBox___StyledDiv2"] > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="TitledGreyBox___StyledDiv"][class*="ReinstallServerBox___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv4"] > div[class*="SettingsContainer___StyledDiv7"] > a > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div:nth-child(2) > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.border-b.border-gray-700.pb-4.mb-4 > button:hover,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button:hover {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - Active State */
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button[style*="background-color: var(--primary-color)"] {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - Inactive State */
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button[style*="background-color: transparent"] {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - General Override */
+.profile-picture-upload-container .upload-mode-toggle button {
+    transition: all 0.3s ease !important;
+}
+
+.profile-picture-upload-container .upload-mode-toggle button[style*="var(--primary-color)"] {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: white !important;
+}
+
+.profile-picture-upload-container .upload-mode-toggle button[style*="transparent"] {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+
+.flIVuY {
+    grid-column: span 7 / span 7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+    
+    padding: 1.5%;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    z-index: 1 !important; /* Bring it above other elements if necessary */
+
+    width: calc(40% - 20px);
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.jZPsWO > div > a:active, .jZPsWO > div > div:active, .jZPsWO > div > a.active, .jZPsWO > div > div.active {
+    --tw-text-opacity: 1;
+    color: hsla(214, 15%, 91%, var(--tw-text-opacity));
+    box-shadow: var(--white) 0px -2px inset !important;
+}
+
+html body.bg-neutral-800 div#app div[class*="App___StyledDiv"] div[class*="Fade__Container"] section.fade-appear-done.fade-enter-done div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done div[class*="Fade__Container"] p[class*="DatabasesContainer___StyledP"],
+[class*="DatabasesContainer___StyledP"],
+div[class*="ModsCards___StyledDiv"],
+div[class*="PluginCard___StyledDiv"] {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+/* Server Show Toggle */
+.cDmYBr > input[type="checkbox"]:checked + label {
+    --tw-bg-opacity: 1;
+    background-color: var(--primary-color) !important;
+    --tw-border-opacity: 1;
+    border-color: var(--primary-color) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.cDmYBr > input[type="checkbox"] + label {
+    --tw-bg-opacity: 1;
+    background-color: var(--transparent) !important;
+    --tw-border-opacity: 1;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Hide Default Footer Copyright*/
+.dcHyfd {
+    display: none !important;
+}
+
+html body.bg-neutral-800 div#app div[class*="App___StyledDiv"] div[class*="Fade__Container"] section.fade-appear-done.fade-enter-done div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done div[class*="ScheduleEditContainer___StyledDiv2"] div[class*="ScheduleEditContainer___StyledDiv7"],
+html body.bg-neutral-800 div#app div[class*="App___StyledDiv"] div[class*="Fade__Container"] section.fade-appear-done.fade-enter-done div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done a[class*="GreyRowBox"][class*="ScheduleContainer___StyledGreyRowBox"][class*="ServerRow___StyledDiv"] {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+}
+
+[class*="ServerRow__StatusIndicatorBox"]:nth-child(3) > div[class*="ServerRow___StyledDiv2"] {
+    display: none !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountApiContainer___StyledContentBox"] > div > form > div[class*="CreateApiKeyForm___StyledDiv"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox2"] > div > div:nth-child(2) > div > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div[class*="AccountOverviewContainer___StyledContentBox"] > div > form > div[class*="UpdateEmailAddressForm___StyledDiv2"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="AccountOverviewContainer__Container"][class*="AccountOverviewContainer___StyledContainer"].hxvCZi.UibaA > div:nth-child(1) > div > form > div[class*="UpdatePasswordForm___StyledDiv3"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="AccountSSHContainer___StyledContentBox"] > div > form > div[class*="CreateSSHKeyForm___StyledDiv"] > button
+{
+    background-color: transparent !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px;  
+}
+
+/* Starting Server Container Items (Port/Usage) Layouts */
+[class*="ServerRow__StatusIndicatorBox"] {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+    transform-origin: center; /* Ensures the container scales from the center */
+}
+
+/* Online Server Container Items (Port/Usage) Layouts */
+.fRwFrz {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+    transform-origin: center; /* Ensures the container scales from the center */
+}
+
+.font-header {
+    color: var(--white) !important;
+}
+
+.dupyoa {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+.dupyoa > option {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(3) > div[class*="SubdomainContainer___StyledDiv3"] > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(3) > div[class*="SubdomainContainer___StyledDiv2"] > p {
+    color: var(--white) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv3"] > div[class*="CodemirrorEditor__EditorContainer"] > div > div.CodeMirror-scroll > div.CodeMirror-gutters,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv3"] > div[class*="CodemirrorEditor__EditorContainer"] > div {
+    background-color: hsla(0, 0%, 0%, 0.97) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv3"] > div[class*="CodemirrorEditor__EditorContainer"] > div {
+    border-radius: var(--br-default) !important;
+}
+
+/* Offline Server Container Items (Port/Usage) Layouts */
+.fwbDSe {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transform-origin: center; /* Ensures the container scales from the center */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+}
+
+/* Hover Effects for Server Containers */
+.fwbDSe:hover, .fRwFrz:hover, [class*="ServerRow__StatusIndicatorBox"]:hover {
+    transform: scale(1.01) !important; /* Zoom in instantly */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > input {
+    width: 100% !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > div.text-gray-100.peer-focus\:text-gray-50.peer-focus\:animate-pulse.style-module_1qLigd7O {
+    color: var(--primary-color);
+    z-index: 0;
+}
+
+/* All Container Stats Spacing & Styling */
+[class*="ServerRow___StyledDiv4"] {
+    grid-column: span 7 / span 7;
+    display: flex; /* Changed from none to flex for visibility */
+    align-items: flex-end !important;
+    justify-content: center;
+    
+    padding: 2.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    width: calc(100% - 20px);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+    -webkit-backdrop-filter: brightness(0.3);
+    backdrop-filter: brightness(0.3);
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv3"] > div[class*="CodemirrorEditor__EditorContainer"] > div > div.CodeMirror-overlayscroll-vertical > div {
+    background-color: var(--primary-color) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.mr-4.flex-1.md\:w-40 > code,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.w-16.md\:w-24.overflow-hidden > code,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.mt-4.w-full.md\:mt-0.md\:flex-1.md\:w-auto > div > textarea {
+    background-image: none !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div > div > form > div > div[class*="LoginFormContainer___StyledDiv3"] > div[class*="ForgotPasswordContainer___StyledDiv2"] > a {
+    color: var(--white) !important;
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="FileEditContainer___StyledDiv3"] > div[class*="CodemirrorEditor__EditorContainer"] > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code > div > div > div,
+#app > div[class*="App___StyledDiv"] > div > div > form > div > div[class*="LoginFormContainer___StyledDiv3"] > div[class*="ForgotPasswordContainer___StyledDiv2"] > a:hover {
+    color: var(--primary-color) !important;
+}
+
+[class*="ServerRow__StatusIndicatorBox"] > div[class*="ServerRow___StyledDiv"] > div.icon.mr-4 {
+    display: none !important;
+}
+
+/* Server Containers Title Text */
+[class*="ServerRow___StyledP"] {
+    font-size: x-large !important;
+    line-height: 1.75rem;
+    overflow-wrap: break-word;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    padding: 0%;
+}
+
+/* Server Containers Title Icon */
+[class*="ServerRow___StyledDiv"] {
+    font-size: x-large !important;
+    margin-left: 2.5%;
+}
+
+/* Server Container Icons & Port Icon */
+[class*="ServerRow___StyledDiv3"] .icon, [class*="ServerRow___StyledFontAwesomeIcon"] {
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+}
+
+/* Server Container Text & Port Text */
+[class*="ServerRow___StyledP2"], [class*="ServerRow___StyledP3"] {
+    font-size: 1rem !important;
+    line-height: 1.25rem;
+    margin-left: 0.5rem;
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    text-shadow: 0px 0px 3px black;
+}
+
+/* Server Container Resource Text Sub */
+[class*="ServerRow___StyledP4"], [class*="ServerRow___StyledP5"], [class*="ServerRow___StyledP6"] {
+    font-size: 1rem !important;
+    line-height: 1rem;
+    --tw-text-opacity: 1;
+    color: var(--primary-color) !important;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+    margin-top: 0.25rem;
+}
+
+/* Server Container Port Icon */
+[class*="ServerRow___StyledFontAwesomeIcon"] {
+    display: none !important;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+/* Server Resource Icons Align */
+[class*="ServerRow___StyledDiv8"], [class*="ServerRow___StyledDiv10"], [class*="ServerRow___StyledDiv12"] {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color) !important;
+}
+
+/* Show Servers Toggle Container */
+.jEGID {
+    margin-bottom: 0.5rem;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Server Containers */
+[class*="ServerRow__StatusIndicatorBox"] {
+    position: relative !important; /* This ensures the status bar can cover the background */
+    display: inline-block;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+    gap: 1rem;
+    overflow: hidden !important; /* Ensures the status bar doesn't overflow outside the container */
+}
+
+/* Server Container Icons */
+[class*="ServerRow___StyledDiv"] .icon {
+    border-radius: 9999px;
+    width: 0rem !important; 
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    color: var(--white) !important;
+    background-color: transparent !important;
+    padding: 0.75rem;
+}
+
+/* Server Container ALL */
+[class*="ServerRow__StatusIndicatorBox"] {
+    display: flex !important;
+    padding: 2rem !important;
+    overflow: hidden !important;
+    justify-content: center !important;
+    align-content: center !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    background-color: rgba(0,0,0,0.5) !important;
+    height: 12rem !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+[class*="ContentContainer"]::after {
+    content: " ";
+    --width: 0px!important;
+    height: 0!important;
+    float: none!important;
+    display: inline-block!important;
+}
+
+[class*="ContentContainer"]::after,
+[class*="ServerRow__StatusIndicatorBox"] {
+    --width: calc(50% - 1rem);
+    width: var(--width)!important;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    height: 155px;
+    float: left;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+@media screen and (max-width: 1015px) {
+    [class*="ServerRow__StatusIndicatorBox"] {
+        --width: calc(100% - 1rem)!important;
+    }
+    [class*="ServerRow___StyledDiv4"] {
+        display: flex;
+    }
+    [class*="ServerRow___StyledDiv7"],
+    [class*="ServerRow___StyledDiv9"] {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.minecraft-players-container.bg-gray-900.p-6.rounded-lg.relative > ul > li > div > div.flex.items-center.space-x-4 > span.text-gray-300.text-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    [class*="ServerRow___StyledDiv9"] {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #logo {
+        display: none;
+    }
+    #NavigationBarRemake > div.mx-auto.w-full.flex.items-center.h-\[3\.5rem\].max-w-\[1200px\] {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    [class*="ServerRow___StyledDiv"] .icon.mr-4 {
+        display: none;
+    }
+    [class*="ServerRow___StyledDiv"] > div:nth-child(2) {
+        --width: 100%!important;
+    }
+}
+
+[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer2"].jyeSuy {
+    display: inline-block;
+    margin: auto auto;
+    width: 100%;
+    max-width: unset;
+}
+
+[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer2"].jyeSuy p {
+    margin-bottom: 7px;
+}
+
+[class*="ServerRow___StyledDiv7"] {
+    margin-left: 0!important;
+}
+
+[class*="ServerRow___StyledDiv"] > div:nth-child(2) {
+    width: calc(100% - 55px);
+}
+
+[class*="ServerRow___StyledP"] {
+    text-overflow: ellipsis;
+    overflow-wrap: unset;
+    overflow: hidden;
+}
+
+[class*="ServerRow___StyledDiv"] {
+    width: calc(100% - 20px);
+    height: 85px;
+    grid-column: span 12/span 12;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+[class*="ServerRow___StyledDiv"] .icon.mr-4 {
+    border-radius: var(--br-default);
+    width: unset;
+    margin-right: .6rem;
+}
+
+/* File Manager Select */
+.jqTCDz[type="checkbox"]:checked, .jqTCDz[type="radio"]:checked {
+    border-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--primary-color) !important;
+    background-size: 100% 100%;
+}
+
+/* File Manager Active Folder */
+.dMBayU {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    --tw-text-opacity: 1;
+    color: var(--primary-color) !important;
+}
+
+/* File Manager Create Directory Button */
+.style-module_Yp7-2Fw- {
+    --tw-bg-opacity: 1;
+    background-color: var(--gray-700) !important;
+    --tw-text-opacity: 1;
+    color: hsla(216, 33%, 97%, var(--tw-text-opacity));
+}
+
+.style-module_Yp7-2Fw-:hover {
+    --tw-bg-opacity: 1;
+    background-color: var(--gray-700) !important;
+    --tw-text-opacity: 1;
+    color: hsla(216, 33%, 97%, var(--tw-text-opacity));
+}
+
+/* Console Page Stats Icons */
+.style-module_2Vp6MaXq > .style-module_1DtraXMW {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--br-default);
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: transparent;
+}
+
+.style-module_2Vp6MaXq > .style-module_1DtraXMW > svg {
+    margin: auto !important;
+    height: auto !important;
+    width: auto !important;
+    font-size: x-large !important;
+}
+
+.style-module_2Vp6MaXq > .style-module_1DtraXMW > svg {
+    margin: auto !important;
+    height: auto !important;
+    width: auto !important;
+    font-size: x-large !important;
+}
+
+/* Create Schedule Container */
+.ekHIsr, .iTERJN {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+            
+    padding: 1.5%;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Create Schedule Text Entries */
+.jqTCDz:not([type="checkbox"]):not([type="radio"]) {
+    resize: none;
+    appearance: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    min-width: 0px;
+    padding: 0.75rem;
+    border-width: 2px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    --tw-border-opacity: 1;
+    border-color: hsla(211, 12%, 43%, var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.ueIjC, .jyDDEO, .fhEpAC {
+    background-color: var(--transparent) !important;
+}
+
+.dfmeCr, .jiXCdv, .fTWzzm, .jwfPOa, .lhtSTn, .cCQdBf, .efYmCH {
+    height: 100%;
+    --tw-bg-opacity: 1;
+    background-color: var(--transparent) !important;
+}
+
+.hsBdEm {
+    margin-top: 2rem;
+    display: flex;
+    background-color: transparent !important;
+    border-color: #ffffff25;
+    border-width: inherit;
+    border-radius: var(--br-default);
+}
+
+.bhGVxk {
+    display: none !important;
+}
+
+.joxWZp, .hVUoLc {
+    margin-top: 1rem !important;
+}
+
+/* Network Text Area Notes */
+.kKFWRA {
+    resize: none;
+    appearance: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    min-width: 0px;
+    padding: 0.75rem;
+    border-width: 2px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: var(--transparent) !important;
+    --tw-border-opacity: 1;
+    border-color: hsla(211, 12%, 43%, var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Create User Inputs */
+#game-select > option,
+body > div.fixed.inset-0.z-50.flex.items-center.justify-center.bg-black.bg-opacity-50 > div,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="CreateBackupButton___StyledDiv2"],
+.oLbNP {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.minecraft-players-container.bg-gray-900.p-6.rounded-lg.relative > div.custom-port-form.mt-4.mb-4 > div > button,
+#custom-port,
+#custom-domain,
+#game-select {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-color: var(--primary-color) !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Apply styles to any element with an ID that starts with "floating-ui-" */
+[id^="floating-ui-"] {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+}
+[id^="floating-ui-"] > div {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#SubNavigation > div[class*="sideNav__SideNavigation"] > div.flex.flex-col.items-center.mb-4 > a[class*="sideNav__NavLinkStyled"] > div > svg {
+    border-radius: var(--br-default) !important;
+}   
+
+#SubNavigation > div[class*="sideNav__SideNavigation"] > div.flex.flex-col.items-center.mb-4 > a[class*="sideNav__NavLinkStyled"] > div {
+    padding: 0rem !important;
+}
+
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv"] > div > button,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="EditSubuserModal___StyledDiv5"] > button,
+#modal-portal > div > div > div > div[class*="Modal___StyledDiv2"] > form > div[class*="CreateBackupButton___StyledDiv3"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="SettingsContainer___StyledDiv11"] > div > div[class*="TitledGreyBox___StyledDiv3"] > form > div[class*="RenameServerBox___StyledDiv2"] > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv4"] > div[class*="SettingsContainer___StyledDiv7"] > a > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv10"] > div[class*="TitledGreyBox___StyledDiv"][class*="ReinstallServerBox___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div > button,
+.jRrWLs {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.jqTCDz[type="checkbox"], .jqTCDz[type="radio"] {
+    background-color: var(--transparent) !important;
+    color: var(--white) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.ekbHAG, .dupyoa, .EwfIk, .izAmwE, .kKFWRA {
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+
+.cDkCmT {
+    border-color: transparent !important;
+}
+
+.icxFlO:not(.disabled):hover, .ZkNLd:not([type="checkbox"]):not([type="radio"]), .jqTCDz:not([type="checkbox"]):not([type="radio"]) {
+    border-color: var(--primary-color) !important;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+#headlessui-dialog-panel-2 > div.px-6.py-3.bg-gray-700.flex.items-center.justify-end.space-x-3.rounded-b {
+    background-color: var(--transparent) !important; /* Semi-transparent white */
+}
+
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv7"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.justify-end.space-x-4.mt-4.w-full.md\:mt-0.md\:w-48 > button,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="StartupContainer___StyledDiv"] > div[class*="TitledGreyBox___StyledDiv"][class*="StartupContainer___StyledTitledGreyBox2"] > div[class*="TitledGreyBox___StyledDiv3"] > div > select,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="StartupContainer___StyledDiv"] > div[class*="TitledGreyBox___StyledDiv"][class*="StartupContainer___StyledTitledGreyBox"] > div[class*="TitledGreyBox___StyledDiv3"] > div > p,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox2"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv9"] > code,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div[class*="SettingsContainer___StyledDiv2"] > div[class*="TitledGreyBox___StyledDiv"][class*="SettingsContainer___StyledTitledGreyBox2"] > div[class*="TitledGreyBox___StyledDiv3"] > div[class*="SettingsContainer___StyledDiv8"] > code,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="GreyRowBox"][class*="UserRow___StyledGreyRowBox"][class*="ServerRow___StyledDiv"],
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv6"] > div,
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div[class*="ScheduleEditContainer___StyledDiv2"] > div[class*="ScheduleEditContainer___StyledDiv3"] {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+html body.bg-neutral-800 div#app div[class*="App___StyledDiv"] div[class*="Fade__Container"] section.fade-appear-done.fade-enter-done div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done div[class*="ScheduleEditContainer___StyledDiv2"] div[class*="ScheduleEditContainer___StyledDiv3"] {
+    border-color: var(--primary-color);
+}
+
+.style-module_1RnhIT0w, .iGOcRf {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+        
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-container-text {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eANsNt {
+    color: var(--white) !important;
+    background-color: var(--gray-900) !important;
+}
+
+.lbaWTK,
+.fzeXUL {
+    color: var(--white) !important;
+}
+#app > div[class*="App___StyledDiv"] > div[class*="Fade__Container"] > section > div[class*="ContentContainer"][class*="PageContentBlock___StyledContentContainer"].jyeSuy.HeRWk.fade-appear-done.fade-enter-done > form > div > div[class*="SearchRow___StyledDiv2"] > div > input
+[class*="Input"] {
+    background-color: var(--gray-900) !important;
+}
+
+.fFYzlR:not([type="checkbox"]):not([type="radio"]) {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+.fFYzlR:not([type="checkbox"]):not([type="radio"]):not(:disabled):not(:read-only):focus {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+input:-internal-autofill-selected {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+.profile-picture {
+    width: fit-content;
+}
+
+.profile-picture-upload-container {
+    display: inline-block;
+    border-radius: var(--br-default);
+    width: auto;
+    margin: auto;
+            
+    padding: 1.5%;
+    border-color: transparent !important;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.ifEusH {
+    color: var(--white) !important;
+}
+
+.styled-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}

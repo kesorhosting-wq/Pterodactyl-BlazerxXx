@@ -1,0 +1,2050 @@
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/blueprint': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/blueprint': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Seeding database.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/euphoriatheme': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/euphoriatheme.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/mcmods': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/app/BlueprintFramework/Extensions/mcmods': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/mcmods.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mcmods': File exists
+NAME: Mods Installer
+PATH: /mcmods
+TYPE: server
+COMP: ModsManagerContainer
+IDEN: McmodsTpyogafpuh
+PERM: 
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/mcmods': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/mcmods': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/mcmods': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/mcmods/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecrafticonchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecrafticonchanger': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/minecrafticonchanger.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecrafticonchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/minecrafticonchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/minecrafticonchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/minecrafticonchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/minecrafticonchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/minecrafticonchanger/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecraftplayermanager': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/app/BlueprintFramework/Extensions/minecraftplayermanager': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/minecraftplayermanager.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/minecraftplayermanager': File exists
+NAME: Players
+PATH: /minecraft/players
+TYPE: server
+COMP: PlayerManagerContainer
+IDEN: MinecraftplayermanagerZettfhvprf
+PERM: 'control.console'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/minecraftplayermanager': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/minecraftplayermanager': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/minecraftplayermanager': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/minecraftplayermanager': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/minecraftplayermanager/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/serversplitter': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/app/BlueprintFramework/Extensions/serversplitter': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/serversplitter.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/serversplitter': File exists
+NAME: Splitter
+PATH: /splitter
+TYPE: server
+COMP: ServerSplitterContainer
+IDEN: ServersplitterSjelaekkbp
+PERM: 'splitter.read'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/serversplitter': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/serversplitter': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/serversplitter': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/serversplitter': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/serversplitter/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/simplefavicons': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/simplefavicons': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/simplefavicons': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/simplefavicons': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/simplefavicons/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/subdomains': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/subdomains': File exists
+NAME: Subdomain
+PATH: /subdomains
+TYPE: server
+COMP: SubdomainContainer
+IDEN: SubdomainsYprpseujoe
+PERM: 
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/subdomains': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/subdomains': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/subdomains': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/subdomains/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/.extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/versionchanger': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/app/BlueprintFramework/Extensions/versionchanger': File exists
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/versionchanger.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/versionchanger': File exists
+NAME: Versions
+PATH: /minecraft/versions
+TYPE: server
+COMP: VersionChangerContainer
+IDEN: VersionchangerVihkxpuich
+PERM: 'file.update'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/versionchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/versionchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/versionchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/versionchanger': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/versionchanger/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/euphoriatheme.php': No such file or directory
+rm: cannot remove 'routes/blueprint/client/euphoriatheme.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/euphoriatheme.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/euphoriatheme.php': No such file or directory
+rm: cannot remove 'routes/blueprint/client/euphoriatheme.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/euphoriatheme.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/minecraftplayermanager.php': No such file or directory
+rm: cannot remove 'routes/blueprint/web/minecraftplayermanager.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/minecraftplayermanager.php': No such file or directory
+NAME: Players
+PATH: /minecraft/players
+TYPE: server
+COMP: PlayerManagerContainer
+IDEN: MinecraftplayermanagerZqdathhbmm
+PERM: 'control.console'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/minecraftplayermanager/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/versionchanger.php': No such file or directory
+rm: cannot remove 'routes/blueprint/web/versionchanger.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/versionchanger.php': No such file or directory
+NAME: Versions
+PATH: /minecraft/versions
+TYPE: server
+COMP: VersionChangerContainer
+IDEN: VersionchangerGcqaiddspl
+PERM: 'file.update'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/versionchanger/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/serversplitter.php': No such file or directory
+rm: cannot remove 'routes/blueprint/web/serversplitter.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/serversplitter.php': No such file or directory
+NAME: Splitter
+PATH: /splitter
+TYPE: server
+COMP: ServerSplitterContainer
+IDEN: ServersplitterWmqddqbfhq
+PERM: 'splitter.read'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/serversplitter/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/versionchanger.php': No such file or directory
+rm: cannot remove 'routes/blueprint/web/versionchanger.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/versionchanger.php': No such file or directory
+NAME: Versions
+PATH: /minecraft/versions
+TYPE: server
+COMP: VersionChangerContainer
+IDEN: VersionchangerQihezbnewb
+PERM: 'file.update'
+ADMI: 
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/versionchanger/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/client/eggchanger.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/eggchanger/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/euphoriatheme.php': No such file or directory
+rm: cannot remove 'routes/blueprint/client/euphoriatheme.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/euphoriatheme.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove 'routes/blueprint/application/euphoriatheme.php': No such file or directory
+rm: cannot remove 'routes/blueprint/client/euphoriatheme.php': No such file or directory
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+rm: cannot remove '/var/www/pterodactyl/routes/blueprint/web/euphoriatheme.php': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/views/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/resources/scripts/blueprint/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/assets/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/storage/extensions/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/public/fs/euphoriatheme': File exists
+ln: failed to create symbolic link '/var/www/pterodactyl/.blueprint/extensions/euphoriatheme/private': File exists
+
+   ERROR  The [public/storage] link already exists.  
+
+
+   INFO  Blade templates cached successfully.  
+
+
+   INFO  Configuration cached successfully.  
+
+
+   INFO  Route cache cleared successfully.  
+
+
+   INFO  Application cache cleared successfully.  
+
+Flushed Blueprint stylesheet and scripts cache.
+   INFO  Broadcasting queue restart signal.  
+
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/resources/scripts/blueprint/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/storage/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/assets/extensions/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagatrashbin': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/playerlisting': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/mclogs': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/sagaserversorter': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/votifiertester': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/pteromonaco': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/public/fs/translations': No such file or directory
+chown: cannot dereference '/var/www/pterodactyl/app/BlueprintFramework/Extensions/votifiertester': No such file or directory

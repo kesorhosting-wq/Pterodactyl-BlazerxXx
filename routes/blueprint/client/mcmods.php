@@ -1,0 +1,1 @@
+../../../.blueprint/extensions/mcmods/routers/client.php

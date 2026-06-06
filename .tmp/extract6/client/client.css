@@ -1,0 +1,1872 @@
+/**
+ * Pterodactyl - Panel
+ * Euphoria Development Theme "Euphoria"
+ */
+
+
+/* --- Palette Configuration --- */
+:root {
+    /* Neutral Colors (Dark Shades of Gray) */
+    --neutral-900: hsla(0, 0%, 10%, 1);  /* Very dark gray */
+    --neutral-800: hsla(0, 0%, 10%, 1);
+    --neutral-700: hsla(0, 0%, 15%, 1);
+    --neutral-600: hsla(0, 0%, 20%, 1);
+    --neutral-500: hsla(0, 0%, 25%, 1);
+    --neutral-400: hsla(0, 0%, 30%, 1);
+    --neutral-300: hsla(0, 0%, 35%, 1);
+    --neutral-200: hsla(0, 0%, 65%, 1);
+    --neutral-100: hsla(0, 0%, 80%, 1);
+    --neutral-50:  hsla(0, 0%, 90%, 1);  /* Light gray */
+
+    /* Primary Color */
+    /* --primary-color (Set by default and changed by user) Defaults to #c2185b/rgb(194 24 91); */
+
+    /* Yellow Colors (Warning) */
+    --yellow: rgba(255, 179, 0, 1);
+
+    /* Green Colors (Success) */
+    --green: rgba(0, 255, 0, 0.5);
+
+    /* Red Colors (Error) */
+    --red: rgba(255, 0, 0, 0.5);
+
+    /* Gray Colors (Shades of Gray) */
+    --gray-900: hsla(0, 0%, 10%, 1); 
+    --gray-800: hsla(0, 0%, 15%, 1);
+    --gray-700: hsla(0, 0%, 20%, 1);
+    --gray-600: hsla(0, 0%, 25%, 1);
+    --gray-500: hsla(0, 0%, 30%, 1);
+    --gray-400: hsla(0, 0%, 40%, 1);
+    --gray-300: hsla(0, 0%, 50%, 1);
+    --gray-200: hsla(0, 0%, 65%, 1);
+    --gray-100: hsla(0, 0%, 80%, 1);
+    --gray-50:  hsla(0, 0%, 90%, 1);
+
+    /* Used for Fonts and more */
+    --white: rgba(255, 255, 255, 1);
+
+    /* Transparency */
+    --transparent: transparent;
+    --br-default: 10px;
+    /* Define accent colors */
+    --accent-pink: #ff69b4; /* Hot Pink */
+    --accent-purple: #6a0dad; /* Purple */
+    --accent-deep-pink: #c71585; /* Deep Pink */
+    --accent-medium-violet-red: #c71585; /* Medium Violet Red */
+}
+
+/* Spacing */
+.p-4 { padding: 1rem; }
+.mr-4 { margin-right: 1rem; }
+.mb-1 { margin-bottom: 0.25rem; }
+
+/* Font sizes */
+.text-xl { font-size: 1.25rem; }
+.text-base { font-size: 1rem; }
+
+/* Font weight */
+.font-semibold { font-weight: 600; }
+
+/* Rounded corners */
+.rounded-md { border-radius: 0.375rem; }
+
+/* Shadow */
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Flex utilities */
+.flex { display: flex; }
+.items-center { align-items: center; }
+
+/* --- Custom Classes with Gradient Theme --- */
+.style-module_2Vp6MaXq {
+    position: relative;
+    border-radius: var(--br-default); /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 85%) !important; /* Semi-transparent white */
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.FileManagerBreadcrumbs___StyledDiv-sc-1yfrkfk-0.lfjboM {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+    padding-right: 15px;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.hidden.sm\:block.sm\:col-span-2.lg\:col-span-3.pr-4 > h1 {
+    background-color: hsla(0, 0%, 0%, 0.85) !important;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    text-align: center;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3.eteQzZ > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5.joGUnY > div.SettingsContainer___StyledDiv5-sc-1e5ycmz-6.cslbwm > div {
+    border-color: var(--primary-color) !important; /* Use the primary color for the border */
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div> div.BackupRow___StyledDiv6-sc-1lzi0pw-14.dKxxNB > div:nth-child(2) > div > div > div > button.DropdownMenu__DropdownButtonRow-sc-1ojgpy2-0.fzeXUL:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.BackupRow___StyledDiv6-sc-1lzi0pw-14.dKxxNB > div:nth-child(2) > div > div > div > button:hover {
+    background-color: color-mix(in srgb, var(--primary-color) 25%, transparent);
+} 
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.hidden.sm\:block.sm\:col-span-2.lg\:col-span-3.pr-4 {
+    padding-right: 0rem !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.BackupRow___StyledDiv6-sc-1lzi0pw-14.dKxxNB > div > div > div {
+    position: fixed !important;
+}
+
+.style-module_RcP2_Fvj .style-module_1AMtO9lt {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4,
+html body.bg-neutral-800 div#app div.App___StyledDiv-sc-2l91w7-0.fnfeQw div.Fade__Container-sc-1p0gm8n-0.hcgQjy section.fade-appear-done.fade-enter-done div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done div.grid.grid-cols-4.gap-4.mb-4 {
+    display: none !important;
+}
+
+.eEAhlT,
+.gFxPde,
+.hmoXMs,
+.iAWVPT
+{
+    color: var(--white) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.DatabasesContainer___StyledDiv-sc-1hfwugg-2.jNRond > p {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+    padding: 10px;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.BackupRow___StyledGreyRowBox-sc-1lzi0pw-0.dyLna-D.kwzDJT.BackupContainer___StyledBackupRow-sc-1vjo0fh-2 {
+    display: flex !important;
+    padding: 2rem !important;
+    flex-direction: row !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.StartupContainer___StyledDiv-sc-163imy2-0.dUOPLC > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox2-sc-163imy2-4.aRhRz > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > select > option {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    color: var(--white) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(1) > div.mt-4.w-full.md\:mt-0.md\:flex-1.md\:w-auto > div > textarea,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.BackupRow___StyledGreyRowBox-sc-1lzi0pw-0.dyLna-D.kwzDJT.BackupContainer___StyledBackupRow-sc-1vjo0fh-2 > div.BackupRow___StyledDiv5-sc-1lzi0pw-11.ewMDWH {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.BackupRow___StyledGreyRowBox-sc-1lzi0pw-0.dyLna-D.kwzDJT.BackupContainer___StyledBackupRow-sc-1vjo0fh-2 > div.BackupRow___StyledDiv6-sc-1lzi0pw-14.dKxxNB {
+    display: flex;
+    align-items: center;
+}
+
+/* Key parent container adjustments */
+div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
+    position: relative; /* Establish proper stacking context */
+    z-index: 1; /* Ensure dropdown is not limited by this */
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn {
+    display: flex !important;
+    padding: 2rem !important;
+    flex-direction: row !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+    border-radius: var(--br-default);
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div > div.flex.items-center.text-gray-50 > a:hover {
+    color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.items-center.justify-between.my-2 > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > p {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 90%) !important;
+    border-radius: var(--br-default);
+    padding: 10px;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+.logo-sidebar {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+.style-module_1WqkLT9X {
+    color: var(--white) !important;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div:nth-child(3) > div.style-module_OFB5PMuf.bg-red-500 {
+    display: none;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountApiContainer___StyledContentBox2-sc-1c4s3nm-2.fQKucD > div > div.GreyRowBox-sc-1xo9c6v-0.AccountApiContainer___StyledGreyRowBox-sc-1c4s3nm-4.dyLna-D.bYFoVv {
+    display: flex !important;
+    padding: 2rem !important;
+    background-color: var(--transparent) !important;
+    flex-direction: row !important; 
+}
+
+body > footer > p > a:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.items-center.justify-between.my-2 > p > span {
+    color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn {
+    display: flex !important;
+    height: auto !important;
+    align-content: center !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+}
+
+#language-selector-button {
+    background-color: hsla(0, 0%, 0%, 0.8) !important; 
+    color: white; 
+    padding: 10px 10px; 
+    border-radius: var(--br-default); 
+    cursor: pointer; 
+    border: rgba(255, 255, 255, 0.07843); 
+    border-style: solid;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    border-style: solid;
+    border-width: 2.5px !important;
+    display: flex;
+    z-index: 1000 !important;
+}
+
+#language-selector-button:hover {
+    background-color: var(--primary-color) !important;
+    border: rgb(0 0 0 / 29%);
+    border-style: solid;
+    border-radius: var(--br-default);
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+#SubNavigation > div > a:hover {
+    box-shadow: var(--white) 0px -2px inset !important;
+}
+
+#LogoWrapper {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: var(--white);
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+}
+
+#CustomButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0 !important;
+}
+
+#CustomButtons > div {
+    width: auto;
+    display: flex;
+    border-radius: var(--br-default);
+    padding: 1rem;
+}
+
+#NavigationLink {
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    color: var(--white);
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+}
+
+#NavigationLink:hover {
+    background-color: var(--primary-color) !important;
+    border: rgb(0 0 0 / 29%);
+    border-style: solid;
+    border-radius: var(--br-default);
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+#SubNavigation > div > a,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn > button.RemoveSubuserButton___StyledButton-sc-1dpwt78-0.bshbPe,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn > button.UserRow___StyledButton-sc-hg2wjz-12.cZTgfs,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn > div.UserRow___StyledDiv3-sc-hg2wjz-5.izEGXQ > p.UserRow___StyledP3-sc-hg2wjz-8.vjgkW,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn > div.UserRow___StyledDiv4-sc-hg2wjz-9.jdiPuv > p.UserRow___StyledP5-sc-hg2wjz-11.fBxuDc,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.fade-appear-done.fade-enter-done > div > a > div.FileObjectRow___StyledDiv-sc-wrdnyp-0.cOiSgE,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.pl-4.pr-6.text-neutral-400,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div.flex-1.px-4.sm\:px-0 > div.flex.items-center.text-gray-50 > div {
+    color: var(--white) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div {
+    border-color: rgb(255 255 255 / 25%) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.bg-gray-700 > div > div.col-span-10.sm\:col-span-9.flex > div.self-center.md\:px-4 > button {
+    color: var(--white) !important;
+}
+
+#server-id-container > div.style-module_1DtraXMW.bg-gray-700.rounded {
+    --tw-shadow: 0;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-gray-700 {
+    --tw-shadow: 0;
+}
+
+#SubNavigation > div.sideNav__SideNavigation-sc-1r6tb78-0.pyTRv > div.Fade__Container-sc-1p0gm8n-0.hcgQjy {
+    display: none !important;
+}
+
+#NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.justify-center.mt-2 > div > a {
+    border: #ffffff14;
+    border-style: solid;
+    border-radius: var(--br-default);
+    height: 2.5rem !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-red-500 > svg,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-gray-700 > svg,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none > div > div.style-module_1DtraXMW.bg-yellow-500 > svg {
+    transform: rotate(0deg) scale(0.85) translate(0px, 0px);
+    color: rgb(255 255 255);
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.sideNavDashboard__SideNavigation-sc-kxfwvj-0.hZqHvJ > div.sideNavDashboard__SectionWrapper-sc-kxfwvj-6.dLCLVE > a > div > svg {
+    border-radius: var(--br-default) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.sideNavDashboard__SideNavigation-sc-kxfwvj-0.hZqHvJ > div.sideNavDashboard__SectionWrapper-sc-kxfwvj-6.dLCLVE > button {
+    background-color: transparent !important;
+    border: 2px solid transparent !important;
+    border-radius: var(--br-default) !important;
+    transition: 150msease-in-out;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.sideNavDashboard__SideNavigation-sc-kxfwvj-0.hZqHvJ > div.sideNavDashboard__SectionWrapper-sc-kxfwvj-6.dLCLVE > button:hover {
+transform: scale(1.00) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.fade-appear-done.fade-enter-done > div > a:hover > div.FileObjectRow___StyledDiv2-sc-wrdnyp-1.fsKyNz {
+    color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2vOYXZWm.flex-1:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1:hover {
+    background-color: var(--yellow) !important;
+    color: var(--white); 
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2vOYXZWm.flex-1 {
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    color: white;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button:nth-child(1):hover {
+    background-color: var(--green) !important;
+    color: var(--white);   
+}
+
+.floJYL:not([type="checkbox"]):not([type="radio"]) {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent */
+    color: var(--white)
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv-sc-48rzpu-1.cZduJy > div > span.FileManagerBreadcrumbs___StyledSpan3-sc-1yfrkfk-6.iTOtPO,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div > p > span {
+    color: var(--primary-color)
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div > p {
+    margin-bottom: 0 !important
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div {
+    position: relative;
+    border-radius: var(--br-default); /* Ensure this matches your design */
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent */
+        
+    padding: 1.5%;
+    margin-top: 5%;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div.CustomModal___StyledDiv-sc-14r8p1g-0.fjCfmy > div {
+    background-color: transparent !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div.CustomModal___StyledDiv-sc-14r8p1g-0.fjCfmy > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > div.CustomModal___StyledDiv-sc-14r8p1g-0.fjCfmy > div > form > p {
+    color: var(--white) !important;
+}
+
+.copy-console:hover {
+    color: var(--primary-color) !important;  
+}
+
+#style-module_RcP2_Fvj > div > div:nth-child(3) {
+    border-radius: var(--br-default);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-module_2Vp6MaXq > .style-module_OFB5PMuf {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0.25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+#style-module_RcP2_Fvj > div > div.xterm-viewport,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.style-module_1n_DiqmT.style-module_1AMtO9lt {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#style-module_RcP2_Fvj > div > div.xterm-viewport {
+    border-radius: var(--br-default) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > input {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 {
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+}
+
+/* Server Charts */
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-1.md\:grid-cols-3.gap-2.sm\:gap-4 > div {
+    position: relative;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 85%) !important; /* Semi-transparent */
+        
+    padding: 1.5%;
+    border-radius: var(--br-default) !important; /* Ensure this matches your design */
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+    border-width: 2.5px !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+/* Terminal #1 */
+.xterm-viewport {
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 75%) !important; /* Semi-transparent */
+        
+    padding: 1rem;
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+.xterm-screen {
+    left: 1%
+}
+/* Terminal #2 */
+.style-module_RcP2_Fvj > .style-module_1n_DiqmT {
+    min-height: 16rem;
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    padding: 0.25rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-color: transparent !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+/* Terminal Text Area #2 */
+.style-module_3TDo--Tn {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+    width: 54rem !important;
+    padding: 1.5%;
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Copy Feedback Styling */
+.copyFeedback {
+    position: absolute;
+    top: -35px; /* Adjust as needed */
+    right: 0;
+    background-color: var(--gray-700); /* #4b5563 */
+    color: var(--gray-50); /* #f9fafb */
+    padding: 4px 8px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem; /* text-sm */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+    animation: fade-in 0.3s ease-in-out;
+}
+
+.copyFeedback::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 10px; /* Align with the feedback box */
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--gray-700) transparent transparent transparent; /* Arrow pointing down */
+}
+/* Player List Display */
+.minecraft-players-container {
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 90%) !important;
+            
+    padding: 1.5%;
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843) !important;
+    border-style: solid !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border-width: 2.5px !important;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* MC Plugins Page */
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.pluginsPage___StyledServerContentBlock-sc-ywww4-40.fobTCW.fade-appear-done.fade-enter-done > div.pluginsPage__PageHeader-sc-ywww4-0.ktdzRv > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.pluginsPage___StyledServerContentBlock-sc-ywww4-40.fobTCW.fade-appear-done.fade-enter-done > div.pluginsPage__EmptyState-sc-ywww4-21.klWKgK > p.pluginsPage__EmptyStateText-sc-ywww4-22.eYitvU,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.pluginsPage___StyledServerContentBlock-sc-ywww4-40.fobTCW.fade-appear-done.fade-enter-done > div.pluginsPage__EmptyState-sc-ywww4-21.klWKgK > p.text-neutral-500,
+.pluginsPage___StyledDiv4-sc-ywww4-31 {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.pluginsPage___StyledServerContentBlock-sc-ywww4-40.fobTCW.fade-appear-done.fade-enter-done > div.pluginsPage__FiltersContainer-sc-ywww4-3.esGJpE,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.pluginsPage___StyledServerContentBlock-sc-ywww4-40.fobTCW.fade-appear-done.fade-enter-done > div.pluginsPage__PageHeader-sc-ywww4-0.ktdzRv {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-width: 2.5px !important;
+    border: rgba(0, 0, 0, 0.29);
+    border-radius: var(--br-default); /* Keep the rounded corners */
+}
+
+#modal-portal > div.Fade__Container-sc-1p0gm8n-0.hhziha > div > div {
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(22, 163, 74, 0.9);
+    border-color: rgba(34, 197, 94, 0.3);
+    border-width: 1px;
+    border-radius: 0.5rem;
+}
+
+.custom-buttons {
+    display: flex;
+}
+
+.uuid-copy {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+
+.uuid-copy:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+/* Panel START/STOP/RESTART Buttons */
+/* Stop Button Hover */
+.style-module_2vOYXZWm:hover {
+    background-color: var(--red) !important;
+}
+/* Restart Button Hover */
+.style-module_Yp7-2Fw-:hover {
+    background-color: var(--yellow) !important;
+}
+/* Panel Power Buttons */
+.style-module_3kBDV_wo {
+    background-color: var(--gray-700) !important;
+}
+
+/* Secondary Navigation Bar Background */
+.jZPsWO {
+    /* Frosted glass effect */
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Active NavBar Button */
+.active {
+    color: var(--white) !important;
+}
+
+/* NavBar button Active & Hover */
+.navbar > a:active, 
+.navbar > button:active, 
+.navbar > .navigation-link:active, 
+.navbar > a:hover, 
+.navbar > button:hover, 
+.navbar > .navigation-link:hover, 
+.navbar > a.active, 
+.navbar > button.active, 
+.navbar > .navigation-link.active {
+    color: white !important;
+    background-color: var(--primary-color) !important;
+}
+
+/* Default state (non-active or non-hover) */
+.navbar > a, 
+.navbar > button, 
+.navbar > .navigation-link {
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+    border-radius: var(--br-default);
+    color: var(--white) !important;
+    margin-right: 0.5rem;
+}
+
+.navbar > a, .navbar > button, .navbar > .navigation-link {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Logout button styled to look like a link */
+.navigation-button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3.5rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: var(--white);
+}
+
+.navigation-button:hover {
+    color: white;
+    background-color: var(--primary-color) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px !important;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--transparent) !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--neutral-900) !important; /* Set this to a dark color or a color of your choice */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color) !important; /* Set the thumb color */
+    border-radius: var(--br-default); /* Optional: to round the thumb */
+    box-shadow: var(--transparent) 0px 0px 0px 0px inset, var(--transparent) 0px 0px 0px 0px inset !important;
+}
+
+/* Login Container */
+.cxOtYP {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+            
+    padding: 1.5% !important;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+/* Login Page Copyright */
+.llNNfK {
+    display: none !important;
+}
+
+/* Login Container LOGIN Button */
+.dLAOsI {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+    border-width: 2px !important;
+}
+
+@media (max-width: 900px) {
+    #logo span {
+        display: none !important;
+    }
+}
+
+#NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.items-center.h-\[3\.5rem\] > div.flex-1.flex.justify-center.relative.z-50 {
+    padding-right: 1rem;
+}
+
+@media (max-width: 950px) {
+    #NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.items-center.h-\[3\.5rem\] > div.flex-1.flex.justify-center.relative.z-50 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 415px) {
+    #NavigationBarRemake > div.mx-auto.w-full.flex.flex-col.items-center.max-w-\[1200px\] > div.w-full.flex.justify-center.mt-2 > div > a:nth-child(2) {
+        display: none !important;
+    }
+}
+
+#searchResults {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1) !important;
+    z-index: 1000 !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+#searchBar {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1) !important;
+    z-index: 1000 !important;
+    border-radius: var(--br-default) !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+.dLAOsI:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+    border-width: 2px !important;
+}
+/* Login Container Field Text */
+.dqkKHi {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+}
+
+/* Login Container Forgot Password Text */
+.cjgCjC {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--primary-color) !important;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cjgCjC:hover {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--white) !important;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Footer Style */
+.copyrightFooter {
+    margin-top: 2rem;
+    text-align: center;
+    --tw-text-opacity: 0.5;
+    color: hsl(0deg 0% 100% / 75%);
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.eOGAqX {
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: hsl(0deg 0% 100% / 75%) !important;
+}
+
+/* Apply shadows directly to the navbar */
+#NavigationBarRemake {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 90%) !important; /* Semi-transparent white */
+
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    transition: border-color 0.3s ease-in-out;
+    z-index: 20 !important;
+
+    /* Enable horizontal scrolling when content overflows */
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+#app > div.ProgressBar___StyledDiv-sc-14ayc3f-1.jleFWY {
+    position: fixed; /* Position the progress bar fixed to the viewport */
+    bottom: 0; /* Align it to the bottom of the viewport */
+    left: 0; /* Ensure it starts from the left edge */
+    width: 100%; /* Stretch it across the full screen width */
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+#app > div.ProgressBar___StyledDiv-sc-14ayc3f-1.jleFWY > div {
+    background-color: var(--primary-color); /* Use the CSS variable for color */
+    box-shadow: 0 -2px 10px 2px var(--primary-color); /* Apply shadow effect */
+}
+
+/* Style the scrollbar for a better look (optional) */
+#NavigationBarRemake::-webkit-scrollbar {
+    height: 4px !important; /* Adjust scrollbar height */
+}
+
+#NavigationBarRemake::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Style scrollbar thumb */
+    border-radius: var(--br-default); /* Rounded edges for the scrollbar */
+}
+
+#NavigationBarRemake::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+#NavigationBar {
+    display: none !important;
+}
+
+#SubNavigation {
+    display: flex;
+    position: relative;
+    z-index: 1 !important;
+}
+
+/* Style the scrollbar for a better look (optional) */
+#SubNavigation::-webkit-scrollbar {
+    height: 4px !important; /* Adjust scrollbar height */
+}
+
+#SubNavigation::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Style scrollbar thumb */
+    border-radius: var(--br-default); /* Rounded edges for the scrollbar */
+}
+
+#SubNavigation::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+#accountDropdownMenu {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position relative to the navbar */
+    right: 0;
+    top: 100%; /* Position the dropdown right below the navbar */
+    z-index: 9999; /* Ensure it's on top of other elements, including #subnavigation */
+    background-color: white; /* Ensure it's visible */
+    border: 1px solid #ccc;
+    border-radius: var(--br-default);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+#accountDropdownMenu.show {
+    display: block; /* Show the menu */
+}
+
+#logo {
+    padding-left: 1rem;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
+    border-color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > a,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv7-sc-1fhsmlc-18.bNaPPt > div > div.ScheduleTaskRow___StyledDiv2-sc-17r38ls-2.dmssYZ > div > div,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv7-sc-1fhsmlc-18.bNaPPt > div > div.ScheduleTaskRow___StyledDiv5-sc-17r38ls-7.kEhfoX > div > div {
+    background-color: hsla(0, 0%, 0%, 0.97) !important;
+}
+
+/* Buttons */
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.TaskDetailsModal___StyledDiv6-sc-1b5dnyw-8.cYjMzD > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn > div.ScheduleEditContainer___StyledDiv5-sc-1fhsmlc-16.greiXh > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1.mr-4,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn > div.ScheduleEditContainer___StyledDiv5-sc-1fhsmlc-16.greiXh > button:nth-child(2),
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv5-sc-1hon03w-10.hhflrF > button,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv-sc-1hon03w-0.epGbtB > div > button,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditScheduleModal___StyledDiv6-sc-wh9db9-8.gcfmAu > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div > div.custom-port-form.mt-4.mb-4 > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.justify-end.mb-2 > a,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountSSHContainer___StyledContentBox-sc-yksipt-1.elqcMv > div > form > div.CreateSSHKeyForm___StyledDiv-sc-plts88-2.gkLmpX > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountApiContainer___StyledContentBox-sc-1c4s3nm-1.bLyuXG > div > form > div.CreateApiKeyForm___StyledDiv-sc-lcvdq4-2.lbanRc > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > form > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox2-sc-12to0iy-3.jcPWbo > div > div:nth-child(2) > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox-sc-12to0iy-2.dRQSTn > div > form > div.UpdateEmailAddressForm___StyledDiv2-sc-s5wzt3-2.ippdQW > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div > div > form > div.UpdatePasswordForm___StyledDiv3-sc-2z7jqw-3.kiwYDo > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > a > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button:nth-child(3),
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.SettingsContainer___StyledDiv11-sc-1e5ycmz-16.fpKeVe > div > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > form > div.RenameServerBox___StyledDiv2-sc-1bh2mfg-3.pGzeD > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.ReinstallServerBox___StyledTitledGreyBox-sc-1prmksw-0.dfnsfz > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3.eteQzZ > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5.joGUnY > div.SettingsContainer___StyledDiv7-sc-1e5ycmz-9.hmubvf > a > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div:nth-child(2) > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.border-b.border-gray-700.pb-4.mb-4 > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > button {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+    border-radius: var(--br-default) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.TaskDetailsModal___StyledDiv6-sc-1b5dnyw-8.cYjMzD > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn > div.ScheduleEditContainer___StyledDiv5-sc-1fhsmlc-16.greiXh > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1.mr-4:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn > div.ScheduleEditContainer___StyledDiv5-sc-1fhsmlc-16.greiXh > button:nth-child(2):hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none:hover,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv5-sc-1hon03w-10.hhflrF > button,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv-sc-1hon03w-0.epGbtB > div > button:hover,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditScheduleModal___StyledDiv6-sc-wh9db9-8.gcfmAu > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div > div.custom-port-form.mt-4.mb-4 > div > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo:active,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button:nth-child(2):active,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button.style-module_4LBM1DKx.style-module_3kBDV_wo:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button:nth-child(2):hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.justify-end.mb-2 > a:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountSSHContainer___StyledContentBox-sc-yksipt-1.elqcMv > div > form > div.CreateSSHKeyForm___StyledDiv-sc-plts88-2.gkLmpX > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountApiContainer___StyledContentBox-sc-1c4s3nm-1.bLyuXG > div > form > div.CreateApiKeyForm___StyledDiv-sc-lcvdq4-2.lbanRc > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > form > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox2-sc-12to0iy-3.jcPWbo > div > div:nth-child(2) > div > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox-sc-12to0iy-2.dRQSTn > div > form > div.UpdateEmailAddressForm___StyledDiv2-sc-s5wzt3-2.ippdQW > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div > div > form > div.UpdatePasswordForm___StyledDiv3-sc-2z7jqw-3.kiwYDo > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > a > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button:nth-child(3):hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.flex.flex-wrap-reverse.md\:flex-nowrap.mb-4 > div.style-module_3Y7xosru > button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.SettingsContainer___StyledDiv11-sc-1e5ycmz-16.fpKeVe > div > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > form > div.RenameServerBox___StyledDiv2-sc-1bh2mfg-3.pGzeD > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.ReinstallServerBox___StyledTitledGreyBox-sc-1prmksw-0.dfnsfz > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3.eteQzZ > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5.joGUnY > div.SettingsContainer___StyledDiv7-sc-1e5ycmz-9.hmubvf > a > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-blue-500.text-white.px-4.py-2.rounded.hover\:bg-blue-600.focus\:outline-none:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.space-y-4 > div > div.flex.space-x-2 > button.bg-gray-600.text-white.px-4.py-2.rounded.hover\:bg-gray-700.focus\:outline-none:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div:nth-child(2) > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.border-b.border-gray-700.pb-4.mb-4 > button:hover,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-4.mb-4 > div.col-span-4.sm\:col-span-2.lg\:col-span-1.self-end > div > button:hover {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - Active State */
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button[style*="background-color: var(--primary-color)"] {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - Inactive State */
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.profile-picture > div > div.profile-picture-upload-container > div > div > button[style*="background-color: transparent"] {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Profile Picture Upload Toggle Buttons - General Override */
+.profile-picture-upload-container .upload-mode-toggle button {
+    transition: all 0.3s ease !important;
+}
+
+.profile-picture-upload-container .upload-mode-toggle button[style*="var(--primary-color)"] {
+    background-color: color-mix(in srgb, hsla(0, 0%, 0%, 0.8) 85%, var(--primary-color) 15%) !important;
+    color: white !important;
+}
+
+.profile-picture-upload-container .upload-mode-toggle button[style*="transparent"] {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+
+.flIVuY {
+    grid-column: span 7 / span 7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+    
+    padding: 1.5%;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    z-index: 1 !important; /* Bring it above other elements if necessary */
+
+    width: calc(40% - 20px);
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.jZPsWO > div > a:active, .jZPsWO > div > div:active, .jZPsWO > div > a.active, .jZPsWO > div > div.active {
+    --tw-text-opacity: 1;
+    color: hsla(214, 15%, 91%, var(--tw-text-opacity));
+    box-shadow: var(--white) 0px -2px inset !important;
+}
+
+html body.bg-neutral-800 div#app div.App___StyledDiv-sc-2l91w7-0.fnfeQw div.Fade__Container-sc-1p0gm8n-0.hcgQjy section.fade-appear-done.fade-enter-done div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done div.Fade__Container-sc-1p0gm8n-0.hcgQjy p.DatabasesContainer___StyledP-sc-1hfwugg-1.mIIYh,
+.DatabasesContainer___StyledP-sc-1hfwugg-1,
+div.ModsCards___StyledDiv-sc-x2mn4r-0,
+div.PluginCard___StyledDiv-sc-15kzngz-0 {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+/* Server Show Toggle */
+.cDmYBr > input[type="checkbox"]:checked + label {
+    --tw-bg-opacity: 1;
+    background-color: var(--primary-color) !important;
+    --tw-border-opacity: 1;
+    border-color: var(--primary-color) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.cDmYBr > input[type="checkbox"] + label {
+    --tw-bg-opacity: 1;
+    background-color: var(--transparent) !important;
+    --tw-border-opacity: 1;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Hide Default Footer Copyright*/
+.dcHyfd {
+    display: none !important;
+}
+
+html body.bg-neutral-800 div#app div.App___StyledDiv-sc-2l91w7-0.fnfeQw div.Fade__Container-sc-1p0gm8n-0.hcgQjy section.fade-appear-done.fade-enter-done div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT div.ScheduleEditContainer___StyledDiv7-sc-1fhsmlc-18.bNaPPt,
+html body.bg-neutral-800 div#app div.App___StyledDiv-sc-2l91w7-0.fnfeQw div.Fade__Container-sc-1p0gm8n-0.hcgQjy section.fade-appear-done.fade-enter-done div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D.bppajE {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > a:nth-child(3) > div.ServerRow___StyledDiv2-sc-1ibsw91-6.iqtzEC {
+    display: none !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountApiContainer___StyledContentBox-sc-1c4s3nm-1.bLyuXG > div > form > div.CreateApiKeyForm___StyledDiv-sc-lcvdq4-2.lbanRc > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox2-sc-12to0iy-3.jcPWbo > div > div:nth-child(2) > div > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div.AccountOverviewContainer___StyledContentBox-sc-12to0iy-2.dRQSTn > div > form > div.UpdateEmailAddressForm___StyledDiv2-sc-s5wzt3-2.ippdQW > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.AccountOverviewContainer__Container-sc-12to0iy-0.AccountOverviewContainer___StyledContainer-sc-12to0iy-1.hxvCZi.UibaA > div:nth-child(1) > div > form > div.UpdatePasswordForm___StyledDiv3-sc-2z7jqw-3.kiwYDo > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.AccountSSHContainer___StyledContentBox-sc-yksipt-1.elqcMv > div > form > div.CreateSSHKeyForm___StyledDiv-sc-plts88-2.gkLmpX > button
+{
+    background-color: transparent !important;
+    border-color: var(--primary-color) !important;
+    border-width: 2px;  
+}
+
+/* Starting Server Container Items (Port/Usage) Layouts */
+.kVijQB {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+    transform-origin: center; /* Ensures the container scales from the center */
+}
+
+/* Online Server Container Items (Port/Usage) Layouts */
+.fRwFrz {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+    transform-origin: center; /* Ensures the container scales from the center */
+}
+
+.font-header {
+    color: var(--white) !important;
+}
+
+.dupyoa {
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+.dupyoa > option {
+    background-color: hsla(0, 0%, 0%, 0.8) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(3) > div.SubdomainContainer___StyledDiv3-sc-1jn345c-5.gortOO > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div:nth-child(3) > div.SubdomainContainer___StyledDiv2-sc-1jn345c-3.hrqVAh > p {
+    color: var(--white) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv3-sc-48rzpu-7.igexuH > div.CodemirrorEditor__EditorContainer-sc-1dzlt6m-0.hWjPIP > div > div.CodeMirror-scroll > div.CodeMirror-gutters,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv3-sc-48rzpu-7.igexuH > div.CodemirrorEditor__EditorContainer-sc-1dzlt6m-0.hWjPIP > div {
+    background-color: hsla(0, 0%, 0%, 0.97) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv3-sc-48rzpu-7.igexuH > div.CodemirrorEditor__EditorContainer-sc-1dzlt6m-0.hWjPIP > div {
+    border-radius: var(--br-default) !important;
+}
+
+/* Offline Server Container Items (Port/Usage) Layouts */
+.fwbDSe {
+    background-color: rgba(26, 26, 26, 0.5); /* Semi-transparent dark background */
+    border-radius: var(--br-default) !important;
+    backdrop-filter: blur(5px); /* Blurs content behind the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border for window effect */
+    transform-origin: center; /* Ensures the container scales from the center */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+}
+
+/* Hover Effects for Server Containers */
+.fwbDSe:hover, .fRwFrz:hover, .kVijQB:hover {
+    transform: scale(1.01) !important; /* Zoom in instantly */
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1); /* Smooth transition only when leaving hover */
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > input {
+    width: 100% !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.grid.grid-cols-4.gap-2.sm\:gap-4.mb-4 > div.flex.col-span-4.lg\:col-span-3 > div > div.relative.flex.style-module_1AMtO9lt > div.text-gray-100.peer-focus\:text-gray-50.peer-focus\:animate-pulse.style-module_1qLigd7O {
+    color: var(--primary-color);
+    z-index: 0;
+}
+
+/* All Container Stats Spacing & Styling */
+.gQExFz {
+    grid-column: span 7 / span 7;
+    display: flex; /* Changed from none to flex for visibility */
+    align-items: flex-end !important;
+    justify-content: center;
+    
+    padding: 2.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    width: calc(100% - 20px);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+    -webkit-backdrop-filter: brightness(0.3);
+    backdrop-filter: brightness(0.3);
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv3-sc-48rzpu-7.igexuH > div.CodemirrorEditor__EditorContainer-sc-1dzlt6m-0.hWjPIP > div > div.CodeMirror-overlayscroll-vertical > div {
+    background-color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.mr-4.flex-1.md\:w-40 > code,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.items-center.w-full.md\:w-auto > div.w-16.md\:w-24.overflow-hidden > code,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.mt-4.w-full.md\:mt-0.md\:flex-1.md\:w-auto > div > textarea {
+    background-image: none !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > form > div > div.LoginFormContainer___StyledDiv3-sc-cyh04c-6.kOFLMG > div.ForgotPasswordContainer___StyledDiv2-sc-1crept1-2.cPEqBA > a {
+    color: var(--white) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.FileEditContainer___StyledDiv3-sc-48rzpu-7.igexuH > div.CodemirrorEditor__EditorContainer-sc-1dzlt6m-0.hWjPIP > div > div.CodeMirror-scroll > div.CodeMirror-sizer > div > div > div > div.CodeMirror-code > div > div > div,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div > div > form > div > div.LoginFormContainer___StyledDiv3-sc-cyh04c-6.kOFLMG > div.ForgotPasswordContainer___StyledDiv2-sc-1crept1-2.cPEqBA > a:hover {
+    color: var(--primary-color) !important;
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > a > div.ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d > div.icon.mr-4 {
+    display: none !important;
+}
+
+/* Server Containers Title Text */
+.LWXmF {
+    font-size: x-large !important;
+    line-height: 1.75rem;
+    overflow-wrap: break-word;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    padding: 0%;
+}
+
+/* Server Containers Title Icon */
+.ecJXa-d {
+    font-size: x-large !important;
+    margin-left: 2.5%;
+}
+
+/* Server Container Icons & Port Icon */
+.iWCdMr, .QNQDy {
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+}
+
+/* Server Container Text & Port Text */
+.kVwOgb, .IQTcj {
+    font-size: 1rem !important;
+    line-height: 1.25rem;
+    margin-left: 0.5rem;
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    text-shadow: 0px 0px 3px black;
+}
+
+/* Server Container Resource Text Sub */
+.iUikAX, .fujSji, .iOYhVG {
+    font-size: 1rem !important;
+    line-height: 1rem;
+    --tw-text-opacity: 1;
+    color: var(--primary-color) !important;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+    margin-top: 0.25rem;
+}
+
+/* Server Container Port Icon */
+.evVMzW {
+    display: none !important;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+/* Server Resource Icons Align */
+.juhRZD, .hUgrQh, .cNvVYR {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color) !important;
+}
+
+/* Show Servers Toggle Container */
+.jEGID {
+    margin-bottom: 0.5rem;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Server Containers */
+.kVijQB {
+    position: relative !important; /* This ensures the status bar can cover the background */
+    display: inline-block;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+    gap: 1rem;
+    overflow: hidden !important; /* Ensures the status bar doesn't overflow outside the container */
+}
+
+/* Server Container Icons */
+.dyLna-D .icon {
+    border-radius: 9999px;
+    width: 0rem !important; 
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    color: var(--white) !important;
+    background-color: transparent !important;
+    padding: 0.75rem;
+}
+
+/* Server Container ALL */
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > a {
+    display: flex !important;
+    padding: 2rem !important;
+    overflow: hidden !important;
+    justify-content: center !important;
+    align-content: center !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    background-color: rgba(0,0,0,0.5) !important;
+    height: 12rem !important;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+.ContentContainer-sc-x3r2dw-0.jyeSuy.HeRWk::after {
+    content: " ";
+    --width: 0px!important;
+    height: 0!important;
+    float: none!important;
+    display: inline-block!important;
+}
+
+.ContentContainer-sc-x3r2dw-0.jyeSuy.HeRWk::after,
+.ServerRow__StatusIndicatorBox-sc-1ibsw91-2 {
+    --width: calc(50% - 1rem);
+    width: var(--width)!important;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    height: 155px;
+    float: left;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}
+
+@media screen and (max-width: 1015px) {
+    .ServerRow__StatusIndicatorBox-sc-1ibsw91-2 {
+        --width: calc(100% - 1rem)!important;
+    }
+    .ServerRow___StyledDiv4-sc-1ibsw91-10.gQExFz {
+        display: flex;
+    }
+    .ServerRow___StyledDiv7-sc-1ibsw91-15.kncYZx,
+    .ServerRow___StyledDiv9-sc-1ibsw91-18.fZEUwy {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.minecraft-players-container.bg-gray-900.p-6.rounded-lg.relative > ul > li > div > div.flex.items-center.space-x-4 > span.text-gray-300.text-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ServerRow___StyledDiv9-sc-1ibsw91-18.fZEUwy {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #logo {
+        display: none;
+    }
+    #NavigationBarRemake > div.mx-auto.w-full.flex.items-center.h-\[3\.5rem\].max-w-\[1200px\] {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d .icon.mr-4 {
+        display: none;
+    }
+    .ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d > div:nth-child(2) {
+        --width: 100%!important;
+    }
+}
+
+.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer2-sc-kbxq2g-2.jyeSuy.clrtss {
+    display: inline-block;
+    margin: auto auto;
+    width: 100%;
+    max-width: unset;
+}
+
+.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer2-sc-kbxq2g-2.jyeSuy.clrtss p {
+    margin-bottom: 7px;
+}
+
+.ServerRow___StyledDiv7-sc-1ibsw91-15.kncYZx {
+    margin-left: 0!important;
+}
+
+.ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d > div:nth-child(2) {
+    width: calc(100% - 55px);
+}
+
+.ServerRow___StyledP-sc-1ibsw91-4.LWXmF {
+    text-overflow: ellipsis;
+    overflow-wrap: unset;
+    overflow: hidden;
+}
+
+.ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d {
+    width: calc(100% - 20px);
+    height: 85px;
+    grid-column: span 12/span 12;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.ServerRow___StyledDiv-sc-1ibsw91-3.ecJXa-d .icon.mr-4 {
+    border-radius: var(--br-default);
+    width: unset;
+    margin-right: .6rem;
+}
+
+/* File Manager Select */
+.jqTCDz[type="checkbox"]:checked, .jqTCDz[type="radio"]:checked {
+    border-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--primary-color) !important;
+    background-size: 100% 100%;
+}
+
+/* File Manager Active Folder */
+.dMBayU {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    --tw-text-opacity: 1;
+    color: var(--primary-color) !important;
+}
+
+/* File Manager Create Directory Button */
+.style-module_Yp7-2Fw- {
+    --tw-bg-opacity: 1;
+    background-color: var(--gray-700) !important;
+    --tw-text-opacity: 1;
+    color: hsla(216, 33%, 97%, var(--tw-text-opacity));
+}
+
+.style-module_Yp7-2Fw-:hover {
+    --tw-bg-opacity: 1;
+    background-color: var(--gray-700) !important;
+    --tw-text-opacity: 1;
+    color: hsla(216, 33%, 97%, var(--tw-text-opacity));
+}
+
+/* Console Page Stats Icons */
+.style-module_2Vp6MaXq > .style-module_1DtraXMW {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--br-default);
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: transparent;
+}
+
+.style-module_2Vp6MaXq > .style-module_1DtraXMW > svg {
+    margin: auto !important;
+    height: auto !important;
+    width: auto !important;
+    font-size: x-large !important;
+}
+
+.style-module_2Vp6MaXq > .style-module_1DtraXMW > svg {
+    margin: auto !important;
+    height: auto !important;
+    width: auto !important;
+    font-size: x-large !important;
+}
+
+/* Create Schedule Container */
+.ekHIsr, .iTERJN {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+            
+    padding: 1.5%;
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+        
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Create Schedule Text Entries */
+.jqTCDz:not([type="checkbox"]):not([type="radio"]) {
+    resize: none;
+    appearance: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    min-width: 0px;
+    padding: 0.75rem;
+    border-width: 2px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+    --tw-border-opacity: 1;
+    border-color: hsla(211, 12%, 43%, var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.ueIjC, .jyDDEO, .fhEpAC {
+    background-color: var(--transparent) !important;
+}
+
+.dfmeCr, .jiXCdv, .fTWzzm, .jwfPOa, .lhtSTn, .cCQdBf, .efYmCH {
+    height: 100%;
+    --tw-bg-opacity: 1;
+    background-color: var(--transparent) !important;
+}
+
+.hsBdEm {
+    margin-top: 2rem;
+    display: flex;
+    background-color: transparent !important;
+    border-color: #ffffff25;
+    border-width: inherit;
+    border-radius: var(--br-default);
+}
+
+.bhGVxk {
+    display: none !important;
+}
+
+.joxWZp, .hVUoLc {
+    margin-top: 1rem !important;
+}
+
+/* Network Text Area Notes */
+.kKFWRA {
+    resize: none;
+    appearance: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    min-width: 0px;
+    padding: 0.75rem;
+    border-width: 2px;
+    border-radius: var(--br-default);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: var(--transparent) !important;
+    --tw-border-opacity: 1;
+    border-color: hsla(211, 12%, 43%, var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: var(--white) !important;
+    --tw-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Create User Inputs */
+#game-select > option,
+body > div.fixed.inset-0.z-50.flex.items-center.justify-center.bg-black.bg-opacity-50 > div,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
+.oLbNP {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.minecraft-players-container.bg-gray-900.p-6.rounded-lg.relative > div.custom-port-form.mt-4.mb-4 > div > button,
+#custom-port,
+#custom-domain,
+#game-select {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-color: var(--primary-color) !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Apply styles to any element with an ID that starts with "floating-ui-" */
+[id^="floating-ui-"] {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+    border-radius: var(--br-default);
+}
+[id^="floating-ui-"] > div {
+    background-color: hsl(0deg 0% 0% / 80%) !important;
+}
+
+#SubNavigation > div.sideNav__SideNavigation-sc-1r6tb78-0.pyTRv > div.flex.flex-col.items-center.mb-4 > a.sideNav__NavLinkStyled-sc-1r6tb78-2.kRGiKi > div > svg {
+    border-radius: var(--br-default) !important;
+}   
+
+#SubNavigation > div.sideNav__SideNavigation-sc-1r6tb78-0.pyTRv > div.flex.flex-col.items-center.mb-4 > a.sideNav__NavLinkStyled-sc-1r6tb78-2.kRGiKi > div {
+    padding: 0rem !important;
+}
+
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv-sc-1hon03w-0.epGbtB > div > button,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.EditSubuserModal___StyledDiv5-sc-1hon03w-10.hhflrF > button,
+#modal-portal > div > div > div > div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr > form > div.CreateBackupButton___StyledDiv3-sc-da8bqw-4.kbZhkd > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.SettingsContainer___StyledDiv11-sc-1e5ycmz-16.fpKeVe > div > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > form > div.RenameServerBox___StyledDiv2-sc-1bh2mfg-3.pGzeD > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3.eteQzZ > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5.joGUnY > div.SettingsContainer___StyledDiv7-sc-1e5ycmz-9.hmubvf > a > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv10-sc-1e5ycmz-15.doimyY > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.ReinstallServerBox___StyledTitledGreyBox-sc-1prmksw-0.dfnsfz > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > button,
+.jRrWLs {
+    background-color: var(--transparent) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.jqTCDz[type="checkbox"], .jqTCDz[type="radio"] {
+    background-color: var(--transparent) !important;
+    color: var(--white) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.ekbHAG, .dupyoa, .EwfIk, .izAmwE, .kKFWRA {
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+
+.cDkCmT {
+    border-color: transparent !important;
+}
+
+.icxFlO:not(.disabled):hover, .ZkNLd:not([type="checkbox"]):not([type="radio"]), .jqTCDz:not([type="checkbox"]):not([type="radio"]) {
+    border-color: var(--primary-color) !important;
+    background-color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+#headlessui-dialog-panel-2 > div.px-6.py-3.bg-gray-700.flex.items-center.justify-end.space-x-3.rounded-b {
+    background-color: var(--transparent) !important; /* Semi-transparent white */
+}
+
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv7-sc-1fhsmlc-18.bNaPPt,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.flex.justify-end.space-x-4.mt-4.w-full.md\:mt-0.md\:w-48 > button,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.StartupContainer___StyledDiv-sc-163imy2-0.dUOPLC > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox2-sc-163imy2-4.aRhRz > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > select,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.StartupContainer___StyledDiv-sc-163imy2-0.dUOPLC > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox-sc-163imy2-1.kRunTE > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div > p,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox2-sc-1e5ycmz-10.QmGPt > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv9-sc-1e5ycmz-13.iZXRny.cursor-pointer > code,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div > div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2.jOEMrJ > div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.SettingsContainer___StyledTitledGreyBox2-sc-1e5ycmz-10.QmGPt > div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ > div.SettingsContainer___StyledDiv8-sc-1e5ycmz-11.hyiIpJ > code,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv6-sc-1fhsmlc-17.hLboVn > div,
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT > div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+}
+
+html body.bg-neutral-800 div#app div.App___StyledDiv-sc-2l91w7-0.fnfeQw div.Fade__Container-sc-1p0gm8n-0.hcgQjy section.fade-appear-done.fade-enter-done div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done div.ScheduleEditContainer___StyledDiv2-sc-1fhsmlc-6.jpYRCT div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
+    border-color: var(--primary-color);
+}
+
+.style-module_1RnhIT0w, .iGOcRf {
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    /* Frosted glass effect */
+    background-color: hsl(0deg 0% 0% / 80%) !important; /* Semi-transparent white */
+        
+    border-radius: var(--br-default); /* Keep the rounded corners */
+    border-color: transparent !important;
+    
+    /* Subtle shadow for a glass effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important; /* Soft shadow to enhance depth */
+    box-sizing: border-box; /* Include border and padding in size */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-container-text {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eANsNt {
+    color: var(--white) !important;
+    background-color: var(--gray-900) !important;
+}
+
+.lbaWTK,
+.fzeXUL {
+    color: var(--white) !important;
+}
+#app > div.App___StyledDiv-sc-2l91w7-0.fnfeQw > div.Fade__Container-sc-1p0gm8n-0.hcgQjy > section > div.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk.fade-appear-done.fade-enter-done > form > div > div.SearchRow___StyledDiv2-sc-wa5l5b-2.liUkzX > div > input
+.Input-sc-19rce1w-0.fFYzlR {
+    background-color: var(--gray-900) !important;
+}
+
+.fFYzlR:not([type="checkbox"]):not([type="radio"]) {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+.fFYzlR:not([type="checkbox"]):not([type="radio"]):not(:disabled):not(:read-only):focus {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+input:-internal-autofill-selected {
+    background-color: var(--gray-900) !important;
+    color: var(--white) !important;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+.profile-picture {
+    width: fit-content;
+}
+
+.profile-picture-upload-container {
+    display: inline-block;
+    border-radius: var(--br-default);
+    width: auto;
+    margin: auto;
+            
+    padding: 1.5%;
+    border-color: transparent !important;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.ifEusH {
+    color: var(--white) !important;
+}
+
+.styled-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.07843);
+    border-style: solid;
+    border-width: 2.5px !important;
+}

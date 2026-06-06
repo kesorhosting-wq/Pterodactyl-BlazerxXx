@@ -1,0 +1,35 @@
+info:
+  name: "Minecraft Icon Changer"
+  identifier: "minecrafticonchanger"
+  description: "Allow the user to easily change the icon of their Minecraft server."
+  flags: ""
+  version: "1.0.1"
+  target: "beta-2024-08"
+  author: "0x7d8"
+  icon: "minecrafticonchanger_icon.jpg"
+
+admin:
+  view: "admin.blade.php"
+  controller: "controller.php"
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  public: "public"
+  directory: ""
+
+requests:
+  views: ""
+  controllers: "controllers"
+  routers:
+    application: ""
+    client: "router/client.php"
+    web: ""
+
+database:
+  migrations: ""

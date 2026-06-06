@@ -1,0 +1,1 @@
+../../../.blueprint/extensions/euphoriatheme/routers/web.php

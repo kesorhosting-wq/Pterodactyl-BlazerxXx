@@ -1,0 +1,1 @@
+.snowflake{position:fixed;top:-10px;z-index:9999;user-select:none;pointer-events:none;color:#fff;font-size:1em;font-family:Arial,sans-serif;text-shadow:0 0 5px #000;animation:linear infinite fall}@keyframes fall{0%{transform:translateX(0) translateY(0)}100%{transform:translateX(var(--snowflake-end-x)) translateY(var(--snowflake-end-y))}}
